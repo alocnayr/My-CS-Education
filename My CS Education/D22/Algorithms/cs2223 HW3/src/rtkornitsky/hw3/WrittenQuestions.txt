@@ -1,0 +1,17 @@
+<<Ryan Kornitsky>>
+HW3
+Written Questions
+
+Question 1.2)
+
+Selection sort) O(N)
+Quick sort) O(NlogN)
+Heap sort) O(NlogN)
+Merge sort) O(NlogN)
+Insertion sort) O(N^2)
+
+Question 4.2)
+
+Avg.BST) O(log(N))
+Avg.List) O(1)
+Avg.OA) O(1)

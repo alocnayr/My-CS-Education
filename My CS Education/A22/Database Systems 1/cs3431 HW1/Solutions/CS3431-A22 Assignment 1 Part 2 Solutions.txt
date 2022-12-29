@@ -1,0 +1,41 @@
+-- 2a.
+select firstName || ' ' || lastName as ArtistName, city || ', ' || state as Location
+from Artist
+where state = 'MA' or state = 'CT'
+order by State, City, lastName
+
+-- 2b. In the TicketPrice table, increase ticket prices for years between 2013 and 2021 by 10 dollars, in a separate command, delete year 2022
+update TicketPrice
+set ticketPrice = ticketPrice + 10
+where year >= 2013 and year <= 2021;
+
+delete TicketPrice
+where year = 2022;
+
+-- 2c. natural join
+select building, gallery, title, price, TO_CHAR(purchasedDate, 'MON D, YYYY') as PurchasedDate
+from Artwork natural join Gallery
+where purchased = 'y'   
+    or gallery = 'Sculpture Garden'
+order by building, gallery, title;
+
+-- 2d. theta join
+select firstName, lastName, title, medium, price * 2 as PandemicPrice, gallery
+from Artist A 
+join Artwork AR on A.artistID = AR.artistID
+join Materials M on M.materialsID = AR.materialsID
+where price >= 100
+    and price <= 200
+    and category = 'Oil'
+    and (gallery = 'Gund' or gallery = 'Walker')
+order by lastName, firstName, title;
+
+-- 2e.
+select distinct G.gallery, category
+from Artwork AR
+join Materials M on M.materialsID = AR.materialsID
+join Gallery G on G.gallery = AR.gallery
+where building = 'Stein Conservatory'
+order by gallery, category;
+
+

@@ -1,0 +1,1 @@
+This repository consists of all my CS courses that I have taken at WPI which are separated into each term that I have taken them. For example, to see the projects that I completed during my software engineering class, navigate to My CS Education -> B22 -> Software Engineering.

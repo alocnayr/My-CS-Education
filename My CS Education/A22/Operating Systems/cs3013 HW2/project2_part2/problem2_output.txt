@@ -1,0 +1,1200 @@
+I am plane 0 0 and I want to eventually take off on runways 6 and 4
+I am plane 0 0, waiting on runway 6.
+I am plane 0 0, waiting on runway 4.
+I am plane thread 0 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 0 0. I am sleeping for 44 seconds while taking off from runway # 6
+I am plane 2 0 and I want to eventually take off on runways 1 and 2
+I am plane 2 0, waiting on runway 1.
+I am plane 2 0, waiting on runway 2.
+I am plane thread 2 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 2 0. I am sleeping for 9 seconds while taking off from runway # 1
+I am plane 1 0 and I want to eventually take off on runways 3 and 4
+I am plane 1 0, waiting on runway 3.
+I am plane 1 0, waiting on runway 4.
+I am plane thread 1 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 1 0. I am sleeping for 40 seconds while taking off from runway # 3
+I am plane thread 2 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 2 0. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 2 0. I am sleeping for 65 seconds while taking off from runway # 2
+I am plane thread 0 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 0 0. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 0 0. I am sleeping for 92 seconds while taking off from runway # 4
+I am plane 4 0 and I want to eventually take off on runways 3 and 5
+I am plane 5 0 and I want to eventually take off on runways 4 and 3
+I am plane 5 0, waiting on runway 4.
+I am plane 5 0, waiting on runway 3.
+I am plane thread 5 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 5 0. I am sleeping for 29 seconds while taking off from runway # 4
+I am plane 3 0 and I want to eventually take off on runways 3 and 5
+I am plane 3 0, waiting on runway 3.
+I am plane 3 0, waiting on runway 5.
+I am plane thread 3 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 3 0. I am sleeping for 40 seconds while taking off from runway # 3
+I am plane thread 2 0. I took off from runway 2. Releasing my semaphore now.
+I am plane 9 0 and I want to eventually take off on runways 3 and 4
+I am plane 9 0, waiting on runway 3.
+I am plane thread 5 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 2 0. I took off from runway 2 and released my semaphore
+I am plane thread 5 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 2 0. Take off sucessful. Now entering the flying state.
+I am plane 11 0 and I want to eventually take off on runways 4 and 6
+I am plane thread 1 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 1 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 0 0. I took off from runway 4. Releasing my semaphore now.
+I am plane 18 0 and I want to eventually take off on runways 4 and 3
+I am plane thread 0 0. I took off from runway 4 and released my semaphore
+I am plane thread 0 0. Take off sucessful. Now entering the flying state.
+I am plane 16 0 and I want to eventually take off on runways 3 and 5
+I am plane 22 0 and I want to eventually take off on runways 5 and 3
+I am plane 22 0, waiting on runway 5.
+I am plane 9 0, waiting on runway 4.
+I am plane 22 0, waiting on runway 3.
+I am plane 23 0 and I want to eventually take off on runways 5 and 3
+I am plane thread 22 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 23 0, waiting on runway 5.
+I am plane 24 0 and I want to eventually take off on runways 1 and 2
+I am plane 24 0, waiting on runway 1.
+I am plane 23 0, waiting on runway 3.
+I am plane thread 2 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 35 seconds
+I am plane 13 0 and I want to eventually take off on runways 2 and 3
+I am plane 25 0 and I want to eventually take off on runways 3 and 2
+I am plane 7 0 and I want to eventually take off on runways 6 and 4
+I am plane 25 0, waiting on runway 3.
+I am plane 25 0, waiting on runway 2.
+I am plane 28 0 and I want to eventually take off on runways 3 and 2
+I am plane 32 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane 34 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane 35 1 and I want to eventually take off on runways 6, 4, and 1.
+I am plane 39 1 and I want to eventually take off on runways 2, 3, and 5.
+I am plane 20 0 and I want to eventually take off on runways 3 and 4
+I am plane 21 0 and I want to eventually take off on runways 1 and 2
+I am plane 35 1, waiting on runway 6.
+I am plane 44 1 and I want to eventually take off on runways 6, 4, and 1.
+I am plane 35 1, waiting on runway 4.
+I am plane 44 1, waiting on runway 6.
+I am plane 35 1, waiting on runway 1.
+I am plane thread 22 0. I am sleeping for 3 seconds while taking off from runway # 5
+I am plane 44 1, waiting on runway 4.
+I am plane 44 1, waiting on runway 1.
+I am plane 4 0, waiting on runway 3.
+I am plane thread 22 0. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 22 0. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 22 0. I am sleeping for 71 seconds while taking off from runway # 3
+I am plane 28 0, waiting on runway 3.
+I am plane 31 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane 28 0, waiting on runway 2.
+I am plane 31 1, waiting on runway 1.
+I am plane thread 28 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 31 1, waiting on runway 4.
+I am plane thread 28 0. I am sleeping for 28 seconds while taking off from runway # 3
+I am plane 31 1, waiting on runway 6.
+I am plane thread 31 1. Now entering the taking off phase. Ready for takeoff.
+I am plane 8 0 and I want to eventually take off on runways 1 and 4
+I am plane thread 31 1. I am sleeping for 37 seconds while taking off from runway # 1
+I am plane 8 0, waiting on runway 1.
+I am plane 15 0 and I want to eventually take off on runways 2 and 3
+I am plane 11 0, waiting on runway 4.
+I am plane 11 0, waiting on runway 6.
+I am plane thread 11 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 11 0. I am sleeping for 58 seconds while taking off from runway # 4
+I am plane 34 1, waiting on runway 1.
+I am plane 10 0 and I want to eventually take off on runways 2 and 3
+I am plane 32 1, waiting on runway 1.
+I am plane thread 1 0. I am sleeping for 36 seconds while taking off from runway # 4
+I am plane 37 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane thread 3 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 37 1, waiting on runway 1.
+I am plane thread 3 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane 37 1, waiting on runway 4.
+I am plane thread 3 0. I am sleeping for 77 seconds while taking off from runway # 5
+I am plane 37 1, waiting on runway 6.
+I am plane thread 37 1. Now entering the taking off phase. Ready for takeoff.
+I am plane 32 1, waiting on runway 4.
+I am plane thread 37 1. I am sleeping for 97 seconds while taking off from runway # 1
+I am plane 32 1, waiting on runway 6.
+I am plane thread 32 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 32 1. I am sleeping for 94 seconds while taking off from runway # 1
+I am plane 38 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane 38 1, waiting on runway 1.
+I am plane 38 1, waiting on runway 4.
+I am plane 38 1, waiting on runway 6.
+I am plane thread 38 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 38 1. I am sleeping for 4 seconds while taking off from runway # 1
+I am plane thread 44 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 44 1. I am sleeping for 9 seconds while taking off from runway # 6
+I am plane 27 0 and I want to eventually take off on runways 6 and 4
+I am plane 27 0, waiting on runway 6.
+I am plane 27 0, waiting on runway 4.
+I am plane thread 27 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 27 0. I am sleeping for 31 seconds while taking off from runway # 6
+I am plane 41 1 and I want to eventually take off on runways 1, 4, and 6.
+I am plane 41 1, waiting on runway 1.
+I am plane 41 1, waiting on runway 4.
+I am plane 41 1, waiting on runway 6.
+I am plane thread 41 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 5 0. I am sleeping for 12 seconds while taking off from runway # 3
+I am plane thread 28 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 19 0 and I want to eventually take off on runways 6 and 4
+I am plane 10 0, waiting on runway 2.
+I am plane 42 1 and I want to eventually take off on runways 5, 3, and 2.
+I am plane thread 28 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane 39 1, waiting on runway 2.
+I am plane thread 28 0. I am sleeping for 75 seconds while taking off from runway # 2
+I am plane 40 1 and I want to eventually take off on runways 2, 3, and 5.
+I am plane 40 1, waiting on runway 2.
+I am plane 40 1, waiting on runway 3.
+I am plane 40 1, waiting on runway 5.
+I am plane 18 0, waiting on runway 4.
+I am plane thread 40 1. Now entering the taking off phase. Ready for takeoff.
+I am plane 18 0, waiting on runway 3.
+I am plane thread 40 1. I am sleeping for 35 seconds while taking off from runway # 2
+I am plane thread 18 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 18 0. I am sleeping for 98 seconds while taking off from runway # 4
+I am plane thread 35 1. Now entering the taking off phase. Ready for takeoff.
+I am plane 16 0, waiting on runway 3.
+I am plane 13 0, waiting on runway 2.
+I am plane 26 0 and I want to eventually take off on runways 4 and 3
+I am plane 13 0, waiting on runway 3.
+I am plane 26 0, waiting on runway 4.
+I am plane thread 13 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 26 0, waiting on runway 3.
+I am plane thread 13 0. I am sleeping for 99 seconds while taking off from runway # 2
+I am plane thread 9 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 23 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 29 0 and I want to eventually take off on runways 4 and 1
+I am plane thread 0 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 94 seconds
+I am plane thread 28 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 28 0. I took off from runway 2 and released my semaphore
+I am plane thread 9 0. I am sleeping for 12 seconds while taking off from runway # 3
+I am plane thread 40 1. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 28 0. Take off sucessful. Now entering the flying state.
+I am plane thread 40 1. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 9 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 34 1, waiting on runway 4.
+I am plane 34 1, waiting on runway 6.
+I am plane thread 18 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 34 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 18 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 34 1. I am sleeping for 94 seconds while taking off from runway # 1
+I am plane thread 9 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 9 0. I am sleeping for 95 seconds while taking off from runway # 4
+I am plane 17 0 and I want to eventually take off on runways 3 and 5
+I am plane 36 1 and I want to eventually take off on runways 6, 4, and 1.
+I am plane thread 41 1. I am sleeping for 45 seconds while taking off from runway # 1
+I am plane 36 1, waiting on runway 6.
+I am plane thread 22 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 36 1, waiting on runway 4.
+I am plane 42 1, waiting on runway 5.
+I am plane 42 1, waiting on runway 3.
+I am plane 42 1, waiting on runway 2.
+I am plane thread 42 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 42 1. I am sleeping for 68 seconds while taking off from runway # 5
+I am plane thread 1 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 1 0. I took off from runway 4 and released my semaphore
+I am plane thread 41 1. I took off from runway 1. Releasing my semaphore now.
+I am plane 14 0 and I want to eventually take off on runways 6 and 4
+I am plane 14 0, waiting on runway 6.
+I am plane thread 2 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 41 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 34 1. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 41 1. I am sleeping for 13 seconds while taking off from runway # 4
+I am plane thread 34 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 42 1. I took off from runway 5. Releasing my semaphore now.
+I am plane 6 0 and I want to eventually take off on runways 2 and 1
+I am plane thread 32 1. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 32 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 32 1. I am sleeping for 42 seconds while taking off from runway # 4
+I am plane thread 37 1. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 37 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 37 1. I am sleeping for 65 seconds while taking off from runway # 4
+I am plane 6 0, waiting on runway 2.
+I am plane 6 0, waiting on runway 1.
+I am plane thread 6 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 15 0, waiting on runway 2.
+I am plane 8 0, waiting on runway 4.
+I am plane thread 44 1. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 18 0. I am sleeping for 8 seconds while taking off from runway # 3
+I am plane 15 0, waiting on runway 3.
+I am plane thread 8 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 27 0. I took off from runway 6. Releasing my semaphore now.
+I am plane 10 0, waiting on runway 3.
+I am plane 19 0, waiting on runway 6.
+I am plane 19 0, waiting on runway 4.
+I am plane 43 1 and I want to eventually take off on runways 5, 3, and 2.
+I am plane thread 19 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 43 1, waiting on runway 5.
+I am plane thread 19 0. I am sleeping for 67 seconds while taking off from runway # 6
+I am plane 43 1, waiting on runway 3.
+I am plane 43 1, waiting on runway 2.
+I am plane thread 37 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 43 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 37 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 43 1. I am sleeping for 21 seconds while taking off from runway # 5
+I am plane thread 37 1. I am sleeping for 95 seconds while taking off from runway # 6
+I am plane thread 10 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 39 1, waiting on runway 3.
+I am plane thread 10 0. I am sleeping for 12 seconds while taking off from runway # 2
+I am plane 39 1, waiting on runway 5.
+I am plane thread 39 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 39 1. I am sleeping for 71 seconds while taking off from runway # 2
+I am plane 20 0, waiting on runway 3.
+I am plane thread 0 0. Entering the awaiting landing state. Almost to destination.
+I am plane 20 0, waiting on runway 4.
+I am plane 24 0, waiting on runway 2.
+I am plane thread 35 1. I am sleeping for 42 seconds while taking off from runway # 6
+I am plane thread 26 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 5 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 16 0, waiting on runway 5.
+I am plane thread 5 0. I took off from runway 3 and released my semaphore
+I am plane 12 0 and I want to eventually take off on runways 4 and 6
+I am plane 12 0, waiting on runway 4.
+I am plane thread 5 0. Take off sucessful. Now entering the flying state.
+I am plane thread 1 0. Take off sucessful. Now entering the flying state.
+I am plane thread 11 0. I took off from runway 4. Releasing my semaphore now.
+I am plane 7 0, waiting on runway 6.
+I am plane thread 1 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 38 seconds
+I am plane thread 11 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane 2 0 and I want to eventually land on runways 1 and 2
+I am plane 2 0, waiting on runway 1 for landing.
+I am plane thread 8 0. I am sleeping for 52 seconds while taking off from runway # 1
+I am plane 2 0, waiting on runway 2 for landing.
+I am plane thread 2 0. Entering the landing state. Ready for landing.
+I am plane thread 2 0. I am sleeping for 90 seconds while landing on runway # 1
+I am plane thread 22 0. I took off from runway 3 and released my semaphore
+I am plane thread 22 0. Take off sucessful. Now entering the flying state.
+I am plane thread 27 0. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 27 0. I am sleeping for 79 seconds while taking off from runway # 4
+I am plane thread 18 0. I took off from runway 3. Releasing my semaphore now.
+I am plane 0 0 and I want to eventually land on runways 3 and 4
+I am plane thread 20 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 0 0, waiting on runway 3 for landing.
+I am plane thread 20 0. I am sleeping for 35 seconds while taking off from runway # 3
+I am plane thread 8 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 5 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 57 seconds
+I am plane thread 8 0. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 11 0. I am sleeping for 16 seconds while taking off from runway # 6
+I am plane thread 43 1. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 8 0. I am sleeping for 6 seconds while taking off from runway # 4
+I am plane thread 43 1. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 2 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 11 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 20 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 11 0. I took off from runway 6 and released my semaphore
+I am plane thread 20 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 20 0. I am sleeping for 98 seconds while taking off from runway # 4
+I am plane thread 41 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 41 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 41 1. I am sleeping for 95 seconds while taking off from runway # 6
+I am plane thread 38 1. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 38 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 38 1. I am sleeping for 19 seconds while taking off from runway # 4
+I am plane thread 44 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 40 1. I am sleeping for 60 seconds while taking off from runway # 3
+I am plane thread 28 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 57 seconds
+I am plane 36 1, waiting on runway 1.
+I am plane thread 36 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 38 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 38 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 37 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 20 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 35 1. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 35 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 35 1. I am sleeping for 60 seconds while taking off from runway # 4
+I am plane thread 22 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 40 seconds
+I am plane thread 41 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 28 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 1 0. Entering the awaiting landing state. Almost to destination.
+I am plane 28 0 and I want to eventually land on runways 4 and 6
+I am plane 28 0, waiting on runway 4 for landing.
+I am plane 28 0, waiting on runway 6 for landing.
+I am plane thread 26 0. I am sleeping for 31 seconds while taking off from runway # 4
+I am plane 14 0, waiting on runway 4.
+I am plane thread 14 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 14 0. I am sleeping for 13 seconds while taking off from runway # 6
+I am plane 21 0, waiting on runway 1.
+I am plane 21 0, waiting on runway 2.
+I am plane 29 0, waiting on runway 4.
+I am plane thread 35 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 21 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 16 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 16 0. I am sleeping for 38 seconds while taking off from runway # 3
+I am plane thread 43 1. I am sleeping for 72 seconds while taking off from runway # 3
+I am plane thread 10 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 3 0. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 3 0. I took off from runway 5 and released my semaphore
+I am plane thread 14 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 26 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 26 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 34 1. I am sleeping for 62 seconds while taking off from runway # 4
+I am plane thread 26 0. I am sleeping for 94 seconds while taking off from runway # 3
+I am plane 7 0, waiting on runway 4.
+I am plane 17 0, waiting on runway 3.
+I am plane thread 7 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 17 0, waiting on runway 5.
+I am plane thread 17 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 17 0. I am sleeping for 44 seconds while taking off from runway # 3
+I am plane thread 15 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 15 0. I am sleeping for 66 seconds while taking off from runway # 2
+I am plane thread 39 1. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 39 1. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 37 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 37 1. Take off sucessful. Now entering the flying state.
+I am plane thread 34 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 37 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 26 seconds
+I am plane thread 34 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 26 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 26 0. I took off from runway 3 and released my semaphore
+I am plane thread 17 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 34 1. I am sleeping for 94 seconds while taking off from runway # 6
+I am plane thread 24 0. Now entering the taking off phase. Ready for takeoff.
+I am plane 0 0, waiting on runway 4 for landing.
+I am plane thread 24 0. I am sleeping for 63 seconds while taking off from runway # 1
+I am plane thread 31 1. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 32 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 31 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 32 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 31 1. I am sleeping for 38 seconds while taking off from runway # 4
+I am plane thread 32 1. I am sleeping for 44 seconds while taking off from runway # 6
+I am plane thread 15 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 25 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 15 0. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 25 0. I am sleeping for 90 seconds while taking off from runway # 3
+I am plane thread 35 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 23 0. I am sleeping for 68 seconds while taking off from runway # 5
+I am plane thread 35 1. I am sleeping for 50 seconds while taking off from runway # 1
+I am plane thread 15 0. I am sleeping for 59 seconds while taking off from runway # 3
+I am plane thread 19 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 8 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 32 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 8 0. I took off from runway 4 and released my semaphore
+I am plane thread 32 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 8 0. Take off sucessful. Now entering the flying state.
+I am plane thread 5 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 8 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 23 seconds
+I am plane thread 32 1. Take off sucessful. Now entering the flying state.
+I am plane thread 3 0. Take off sucessful. Now entering the flying state.
+I am plane thread 34 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 3 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 72 seconds
+I am plane thread 34 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 34 1. Take off sucessful. Now entering the flying state.
+I am plane thread 25 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 8 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 38 1. I am sleeping for 23 seconds while taking off from runway # 6
+I am plane thread 42 1. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane 8 0 and I want to eventually land on runways 4 and 3
+I am plane 1 0 and I want to eventually land on runways 3 and 2
+I am plane 8 0, waiting on runway 4 for landing.
+I am plane 1 0, waiting on runway 3 for landing.
+I am plane 8 0, waiting on runway 3 for landing.
+I am plane 1 0, waiting on runway 2 for landing.
+I am plane thread 8 0. Entering the landing state. Ready for landing.
+I am plane thread 38 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 8 0. I am sleeping for 85 seconds while landing on runway # 4
+I am plane thread 38 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 38 1. Take off sucessful. Now entering the flying state.
+I am plane thread 41 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 41 1. Take off sucessful. Now entering the flying state.
+I am plane thread 28 0. Entering the landing state. Ready for landing.
+I am plane thread 28 0. I am sleeping for 44 seconds while landing on runway # 4
+I am plane thread 11 0. Take off sucessful. Now entering the flying state.
+I am plane thread 27 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 11 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 68 seconds
+I am plane 30 1 and I want to eventually take off on runways 2, 3, and 5.
+I am plane 30 1, waiting on runway 2.
+I am plane 30 1, waiting on runway 3.
+I am plane 30 1, waiting on runway 5.
+I am plane 5 0 and I want to eventually land on runways 2 and 3
+I am plane 5 0, waiting on runway 2 for landing.
+I am plane 5 0, waiting on runway 3 for landing.
+I am plane thread 5 0. Entering the landing state. Ready for landing.
+I am plane thread 5 0. I am sleeping for 35 seconds while landing on runway # 2
+I am plane thread 35 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 7 0. I am sleeping for 20 seconds while taking off from runway # 6
+I am plane thread 24 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 23 0. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 23 0. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 15 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 5 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 5 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 34 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 39 seconds
+I am plane thread 23 0. I am sleeping for 15 seconds while taking off from runway # 3
+I am plane thread 5 0. I am sleeping for 25 seconds landing on runway # 3
+I am plane thread 18 0. I took off from runway 3 and released my semaphore
+I am plane thread 18 0. Take off sucessful. Now entering the flying state.
+I am plane 33 1 and I want to eventually take off on runways 6, 4, and 1.
+I am plane thread 36 1. I am sleeping for 89 seconds while taking off from runway # 6
+I am plane thread 40 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 42 1. I am sleeping for 96 seconds while taking off from runway # 3
+I am plane thread 0 0. Entering the landing state. Ready for landing.
+I am plane thread 38 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 23 seconds
+I am plane thread 37 1. Entering the awaiting landing state. Almost to destination.
+I am plane 37 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane 37 1, waiting on runway 6 for landing.
+I am plane 37 1, waiting on runway 4 for landing.
+I am plane thread 3 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 38 1. Entering the awaiting landing state. Almost to destination.
+I am plane thread 41 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 20 seconds
+I am plane 38 1 and I want to eventually land on runways 1, 4, and 6.
+I am plane thread 2 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 2 0. I am sleeping for 96 seconds landing on runway # 2
+I am plane 38 1, waiting on runway 1 for landing.
+I am plane thread 14 0. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane 38 1, waiting on runway 4 for landing.
+I am plane thread 14 0. I am sleeping for 92 seconds while taking off from runway # 4
+I am plane thread 27 0. I took off from runway 4 and released my semaphore
+I am plane thread 27 0. Take off sucessful. Now entering the flying state.
+I am plane thread 19 0. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane 38 1, waiting on runway 6 for landing.
+I am plane thread 36 1. I took off from runway 6. Releasing my semaphore now.
+I am plane 4 0, waiting on runway 5.
+I am plane thread 32 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 17 seconds
+I am plane thread 6 0. I am sleeping for 82 seconds while taking off from runway # 2
+I am plane thread 31 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 31 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 13 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 35 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 13 0. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 13 0. I am sleeping for 69 seconds while taking off from runway # 3
+I am plane thread 15 0. I took off from runway 3 and released my semaphore
+I am plane thread 15 0. Take off sucessful. Now entering the flying state.
+I am plane thread 15 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 97 seconds
+I am plane thread 7 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 6 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 6 0. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 25 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 20 0. I took off from runway 4 and released my semaphore
+I am plane thread 20 0. Take off sucessful. Now entering the flying state.
+I am plane thread 20 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 25 seconds
+I am plane thread 13 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 5 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 5 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 13 0. I took off from runway 3 and released my semaphore
+I am plane thread 13 0. Take off sucessful. Now entering the flying state.
+I am plane thread 17 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 26 0. Take off sucessful. Now entering the flying state.
+I am plane thread 26 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 11 seconds
+I am plane 3 0 and I want to eventually land on runways 1 and 4
+I am plane 3 0, waiting on runway 1 for landing.
+I am plane 29 0, waiting on runway 1.
+I am plane thread 29 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 26 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 29 0. I am sleeping for 8 seconds while taking off from runway # 4
+I am plane 26 0 and I want to eventually land on runways 6 and 4
+I am plane 26 0, waiting on runway 6 for landing.
+I am plane 26 0, waiting on runway 4 for landing.
+I am plane thread 26 0. Entering the landing state. Ready for landing.
+I am plane thread 19 0. I am sleeping for 91 seconds while taking off from runway # 4
+I am plane thread 26 0. I am sleeping for 25 seconds while landing on runway # 6
+I am plane thread 29 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 41 1. Entering the awaiting landing state. Almost to destination.
+I am plane thread 29 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane 41 1 and I want to eventually land on runways 1, 4, and 6.
+I am plane thread 29 0. I am sleeping for 95 seconds while taking off from runway # 1
+I am plane 41 1, waiting on runway 1 for landing.
+I am plane thread 8 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 28 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 8 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 8 0. I am sleeping for 76 seconds landing on runway # 3
+I am plane thread 35 1. Take off sucessful. Now entering the flying state.
+I am plane thread 35 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 67 seconds
+I am plane thread 24 0. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 24 0. I am sleeping for 39 seconds while taking off from runway # 2
+I am plane thread 39 1. I am sleeping for 34 seconds while taking off from runway # 3
+I am plane thread 7 0. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 7 0. I am sleeping for 74 seconds while taking off from runway # 4
+I am plane thread 25 0. I am sleeping for 47 seconds while taking off from runway # 2
+I am plane thread 23 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 23 0. I took off from runway 3 and released my semaphore
+I am plane thread 8 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 1 0. Entering the landing state. Ready for landing.
+I am plane thread 1 0. I am sleeping for 31 seconds while landing on runway # 3
+I am plane thread 34 1. Entering the awaiting landing state. Almost to destination.
+I am plane 34 1 and I want to eventually land on runways 2, 3, and 5.
+I am plane 34 1, waiting on runway 2 for landing.
+I am plane 34 1, waiting on runway 3 for landing.
+I am plane 34 1, waiting on runway 5 for landing.
+I am plane thread 34 1. Entering the landing state. Ready for landing.
+I am plane thread 0 0. I am sleeping for 42 seconds while landing on runway # 3
+I am plane thread 5 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 17 0. I am sleeping for 62 seconds while taking off from runway # 5
+I am plane thread 20 0. Entering the awaiting landing state. Almost to destination.
+I am plane 12 0, waiting on runway 6.
+I am plane thread 12 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 12 0. I am sleeping for 84 seconds while taking off from runway # 4
+I am plane thread 15 0. Entering the awaiting landing state. Almost to destination.
+I am plane 15 0 and I want to eventually land on runways 4 and 3
+I am plane 15 0, waiting on runway 4 for landing.
+I am plane 15 0, waiting on runway 3 for landing.
+I am plane thread 17 0. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 17 0. I took off from runway 5 and released my semaphore
+I am plane thread 28 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 17 0. Take off sucessful. Now entering the flying state.
+I am plane thread 28 0. I am sleeping for 7 seconds landing on runway # 6
+I am plane thread 43 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 4 0. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 43 1. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 43 1. I am sleeping for 69 seconds while taking off from runway # 2
+I am plane thread 31 1. I am sleeping for 33 seconds while taking off from runway # 6
+I am plane thread 26 0. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 11 0. Entering the awaiting landing state. Almost to destination.
+I am plane 33 1, waiting on runway 6.
+I am plane thread 44 1. I am sleeping for 54 seconds while taking off from runway # 4
+I am plane thread 6 0. I am sleeping for 53 seconds while taking off from runway # 1
+I am plane thread 18 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 34 seconds
+I am plane thread 24 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 24 0. I took off from runway 2 and released my semaphore
+I am plane thread 24 0. Take off sucessful. Now entering the flying state.
+I am plane thread 24 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 55 seconds
+I am plane thread 39 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 23 0. Take off sucessful. Now entering the flying state.
+I am plane thread 31 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 23 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 6 seconds
+I am plane thread 35 1. Entering the awaiting landing state. Almost to destination.
+I am plane 35 1 and I want to eventually land on runways 1, 4, and 6.
+I am plane 35 1, waiting on runway 1 for landing.
+I am plane 35 1, waiting on runway 4 for landing.
+I am plane 35 1, waiting on runway 6 for landing.
+I am plane thread 35 1. Entering the landing state. Ready for landing.
+I am plane 20 0 and I want to eventually land on runways 5 and 3
+I am plane 37 1, waiting on runway 1 for landing.
+I am plane 20 0, waiting on runway 5 for landing.
+I am plane thread 9 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 27 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 15 seconds
+I am plane thread 0 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 0 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 0 0. I am sleeping for 8 seconds landing on runway # 4
+I am plane 3 0, waiting on runway 4 for landing.
+I am plane thread 27 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 21 0. I am sleeping for 70 seconds while taking off from runway # 1
+I am plane thread 15 0. Entering the landing state. Ready for landing.
+I am plane thread 36 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 38 1. Entering the landing state. Ready for landing.
+I am plane thread 36 1. I am sleeping for 38 seconds while taking off from runway # 4
+I am plane thread 16 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 14 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 16 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 16 0. I am sleeping for 97 seconds while taking off from runway # 5
+I am plane thread 28 0. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 2 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 21 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 2 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 26 0. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 21 0. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 21 0. I am sleeping for 49 seconds while taking off from runway # 2
+I am plane thread 39 1. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 39 1. I am sleeping for 3 seconds while taking off from runway # 5
+I am plane thread 29 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 29 0. I took off from runway 1 and released my semaphore
+I am plane thread 39 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 39 1. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 21 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 16 0. I took off from runway 5. Releasing my semaphore now.
+I am plane thread 44 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 44 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 16 0. I took off from runway 5 and released my semaphore
+I am plane thread 24 0. Entering the awaiting landing state. Almost to destination.
+I am plane 24 0 and I want to eventually land on runways 3 and 2
+I am plane 24 0, waiting on runway 3 for landing.
+I am plane 24 0, waiting on runway 2 for landing.
+I am plane thread 24 0. Entering the landing state. Ready for landing.
+I am plane thread 24 0. I am sleeping for 19 seconds while landing on runway # 3
+I am plane thread 16 0. Take off sucessful. Now entering the flying state.
+I am plane thread 16 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 75 seconds
+I am plane thread 7 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 7 0. I took off from runway 4 and released my semaphore
+I am plane thread 7 0. Take off sucessful. Now entering the flying state.
+I am plane thread 7 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 9 seconds
+I am plane thread 24 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 24 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 24 0. I am sleeping for 80 seconds landing on runway # 2
+I am plane thread 30 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 38 1. I am sleeping for 8 seconds while landing on runway # 1
+I am plane thread 30 1. I am sleeping for 29 seconds while taking off from runway # 2
+I am plane thread 17 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 15 seconds
+I am plane thread 16 0. Entering the awaiting landing state. Almost to destination.
+I am plane 16 0 and I want to eventually land on runways 4 and 6
+I am plane 16 0, waiting on runway 4 for landing.
+I am plane 41 1, waiting on runway 4 for landing.
+I am plane thread 0 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 0 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 0 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 36 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 24 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 24 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 24 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 19 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 19 0. I took off from runway 4 and released my semaphore
+I am plane thread 19 0. Take off sucessful. Now entering the flying state.
+I am plane thread 19 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 60 seconds
+I am plane thread 34 1. I am sleeping for 72 seconds while landing on runway # 2
+I am plane thread 25 0. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 25 0. I took off from runway 2 and released my semaphore
+I am plane thread 25 0. Take off sucessful. Now entering the flying state.
+I am plane thread 25 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 37 seconds
+I am plane thread 21 0. I took off from runway 2 and released my semaphore
+I am plane thread 21 0. Take off sucessful. Now entering the flying state.
+I am plane thread 21 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 45 seconds
+I am plane thread 6 0. I took off from runway 1. Releasing my semaphore now.
+I am plane thread 6 0. I took off from runway 1 and released my semaphore
+I am plane thread 6 0. Take off sucessful. Now entering the flying state.
+I am plane thread 6 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 17 seconds
+I am plane thread 1 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 34 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 18 0. Entering the awaiting landing state. Almost to destination.
+I am plane 18 0 and I want to eventually land on runways 3 and 2
+I am plane thread 21 0. Entering the awaiting landing state. Almost to destination.
+I am plane 21 0 and I want to eventually land on runways 5 and 3
+I am plane 21 0, waiting on runway 5 for landing.
+I am plane 21 0, waiting on runway 3 for landing.
+I am plane thread 21 0. Entering the landing state. Ready for landing.
+I am plane thread 21 0. I am sleeping for 97 seconds while landing on runway # 5
+I am plane thread 9 0. I took off from runway 4 and released my semaphore
+I am plane 16 0, waiting on runway 6 for landing.
+I am plane thread 16 0. Entering the landing state. Ready for landing.
+I am plane thread 16 0. I am sleeping for 48 seconds while landing on runway # 4
+I am plane 41 1, waiting on runway 6 for landing.
+I am plane thread 41 1. Entering the landing state. Ready for landing.
+I am plane thread 41 1. I am sleeping for 4 seconds while landing on runway # 1
+I am plane thread 12 0. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 12 0. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 17 0. Entering the awaiting landing state. Almost to destination.
+I am plane 17 0 and I want to eventually land on runways 1 and 4
+I am plane 17 0, waiting on runway 1 for landing.
+I am plane thread 30 1. I took off from runway 2. Releasing my semaphore now.
+I am plane thread 30 1. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 21 0. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 36 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 21 0. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 8 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 8 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 31 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 21 0. I am sleeping for 97 seconds landing on runway # 3
+I am plane thread 40 1. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 39 1. Take off sucessful. Now entering the flying state.
+I am plane thread 23 0. Entering the awaiting landing state. Almost to destination.
+I am plane 23 0 and I want to eventually land on runways 2 and 1
+I am plane 23 0, waiting on runway 2 for landing.
+I am plane 23 0, waiting on runway 1 for landing.
+I am plane thread 23 0. Entering the landing state. Ready for landing.
+I am plane thread 23 0. I am sleeping for 78 seconds while landing on runway # 2
+I am plane thread 1 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 1 0. I am sleeping for 99 seconds landing on runway # 2
+I am plane thread 10 0. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 35 1. I am sleeping for 76 seconds while landing on runway # 1
+I am plane 18 0, waiting on runway 3 for landing.
+I am plane thread 34 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 34 1. I am sleeping for 29 seconds while landing on runway # 3
+I am plane thread 3 0. Entering the landing state. Ready for landing.
+I am plane thread 3 0. I am sleeping for 53 seconds while landing on runway # 1
+I am plane thread 37 1. Entering the landing state. Ready for landing.
+I am plane thread 37 1. I am sleeping for 83 seconds while landing on runway # 6
+I am plane thread 9 0. Take off sucessful. Now entering the flying state.
+I am plane thread 21 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 9 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 47 seconds
+I am plane thread 21 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 7 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 34 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 38 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 3 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 3 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 3 0. I am sleeping for 22 seconds landing on runway # 4
+I am plane thread 23 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 12 0. I am sleeping for 50 seconds while taking off from runway # 6
+I am plane thread 1 0. I landed on runway 2. Releasing my semaphore now.
+I am plane 11 0 and I want to eventually land on runways 3 and 5
+I am plane thread 9 0. Entering the awaiting landing state. Almost to destination.
+I am plane 11 0, waiting on runway 3 for landing.
+I am plane thread 30 1. I am sleeping for 12 seconds while taking off from runway # 3
+I am plane 9 0 and I want to eventually land on runways 3 and 2
+I am plane 9 0, waiting on runway 3 for landing.
+I am plane thread 31 1. Take off sucessful. Now entering the flying state.
+I am plane thread 29 0. Take off sucessful. Now entering the flying state.
+I am plane thread 31 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 53 seconds
+I am plane thread 29 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 24 seconds
+I am plane thread 22 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 19 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 13 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 10 seconds
+I am plane thread 29 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 6 0. Entering the awaiting landing state. Almost to destination.
+I am plane 29 0 and I want to eventually land on runways 3 and 5
+I am plane 6 0 and I want to eventually land on runways 1 and 2
+I am plane 29 0, waiting on runway 3 for landing.
+I am plane 6 0, waiting on runway 1 for landing.
+I am plane thread 42 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 42 1. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 42 1. I am sleeping for 55 seconds while taking off from runway # 2
+I am plane thread 13 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 21 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 14 0. I took off from runway 4 and released my semaphore
+I am plane thread 14 0. Take off sucessful. Now entering the flying state.
+I am plane thread 14 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 76 seconds
+I am plane 20 0, waiting on runway 3 for landing.
+I am plane thread 20 0. Entering the landing state. Ready for landing.
+I am plane 18 0, waiting on runway 2 for landing.
+I am plane thread 18 0. Entering the landing state. Ready for landing.
+I am plane thread 18 0. I am sleeping for 66 seconds while landing on runway # 3
+I am plane 17 0, waiting on runway 4 for landing.
+I am plane thread 17 0. Entering the landing state. Ready for landing.
+I am plane thread 17 0. I am sleeping for 57 seconds while landing on runway # 1
+I am plane thread 16 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 1 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 1 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 36 1. I am sleeping for 54 seconds while taking off from runway # 1
+I am plane thread 3 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 3 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 3 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 37 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 37 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 37 1. I am sleeping for 11 seconds while landing on runway # 4
+I am plane thread 43 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 43 1. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 43 1. Take off sucessful. Now entering the flying state.
+I am plane thread 37 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 18 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 37 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 12 0. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 37 1. I am sleeping for 14 seconds while landing on runway # 1
+I am plane 22 0 and I want to eventually land on runways 1 and 4
+I am plane 22 0, waiting on runway 1 for landing.
+I am plane 22 0, waiting on runway 4 for landing.
+I am plane thread 22 0. Entering the landing state. Ready for landing.
+I am plane thread 22 0. I am sleeping for 19 seconds while landing on runway # 1
+I am plane thread 34 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 4 0. I am sleeping for 93 seconds while taking off from runway # 3
+I am plane thread 32 1. Entering the awaiting landing state. Almost to destination.
+I am plane 32 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane 32 1, waiting on runway 6 for landing.
+I am plane 32 1, waiting on runway 4 for landing.
+I am plane 32 1, waiting on runway 1 for landing.
+I am plane thread 32 1. Entering the landing state. Ready for landing.
+I am plane thread 32 1. I am sleeping for 20 seconds while landing on runway # 6
+I am plane thread 20 0. I am sleeping for 78 seconds while landing on runway # 5
+I am plane thread 35 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 23 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 23 0. I am sleeping for 62 seconds landing on runway # 1
+I am plane thread 16 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 16 0. I am sleeping for 33 seconds landing on runway # 6
+I am plane 9 0, waiting on runway 2 for landing.
+I am plane thread 9 0. Entering the landing state. Ready for landing.
+I am plane thread 9 0. I am sleeping for 97 seconds while landing on runway # 3
+I am plane thread 39 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 81 seconds
+I am plane thread 40 1. I am sleeping for 4 seconds while taking off from runway # 5
+I am plane thread 32 1. I landed on runway 6. Releasing my semaphore now.
+I am plane 33 1, waiting on runway 4.
+I am plane thread 32 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane 33 1, waiting on runway 1.
+I am plane thread 33 1. Now entering the taking off phase. Ready for takeoff.
+I am plane thread 33 1. I am sleeping for 88 seconds while taking off from runway # 6
+I am plane thread 42 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 14 0. Entering the awaiting landing state. Almost to destination.
+I am plane 14 0 and I want to eventually land on runways 2 and 3
+I am plane 14 0, waiting on runway 2 for landing.
+I am plane thread 10 0. I am sleeping for 9 seconds while taking off from runway # 3
+I am plane thread 16 0. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 18 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 18 0. I am sleeping for 77 seconds landing on runway # 2
+I am plane thread 12 0. I took off from runway 6 and released my semaphore
+I am plane thread 12 0. Take off sucessful. Now entering the flying state.
+I am plane thread 12 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 4 seconds
+I am plane thread 4 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 31 1. Entering the awaiting landing state. Almost to destination.
+I am plane thread 12 0. Entering the awaiting landing state. Almost to destination.
+I am plane 12 0 and I want to eventually land on runways 1 and 2
+I am plane 12 0, waiting on runway 1 for landing.
+I am plane 12 0, waiting on runway 2 for landing.
+I am plane thread 12 0. Entering the landing state. Ready for landing.
+I am plane thread 12 0. I am sleeping for 15 seconds while landing on runway # 1
+I am plane thread 32 1. I am sleeping for 31 seconds while landing on runway # 4
+I am plane thread 42 1. I took off from runway 2 and RELEASED SEMAPHORE
+I am plane thread 33 1. I took off from runway 6. Releasing my semaphore now.
+I am plane thread 44 1. I am sleeping for 31 seconds while taking off from runway # 1
+I am plane thread 18 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 18 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 18 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane 7 0 and I want to eventually land on runways 2 and 3
+I am plane 7 0, waiting on runway 2 for landing.
+I am plane 7 0, waiting on runway 3 for landing.
+I am plane thread 7 0. Entering the landing state. Ready for landing.
+I am plane thread 7 0. I am sleeping for 47 seconds while landing on runway # 2
+I am plane 27 0 and I want to eventually land on runways 2 and 3
+I am plane thread 17 0. I landed on runway 1. Releasing my semaphore now.
+I am plane 27 0, waiting on runway 2 for landing.
+I am plane thread 17 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane 27 0, waiting on runway 3 for landing.
+I am plane thread 17 0. I am sleeping for 80 seconds landing on runway # 4
+I am plane thread 27 0. Entering the landing state. Ready for landing.
+I am plane thread 27 0. I am sleeping for 30 seconds while landing on runway # 2
+I am plane thread 25 0. Entering the awaiting landing state. Almost to destination.
+I am plane 25 0 and I want to eventually land on runways 3 and 2
+I am plane 29 0, waiting on runway 5 for landing.
+I am plane thread 16 0. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 29 0. Entering the landing state. Ready for landing.
+I am plane thread 29 0. I am sleeping for 7 seconds while landing on runway # 3
+I am plane 31 1 and I want to eventually land on runways 5, 3, and 2.
+I am plane thread 27 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 27 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 27 0. I am sleeping for 38 seconds landing on runway # 3
+I am plane thread 9 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 9 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane 11 0, waiting on runway 5 for landing.
+I am plane thread 11 0. Entering the landing state. Ready for landing.
+I am plane thread 11 0. I am sleeping for 26 seconds while landing on runway # 3
+I am plane thread 26 0. I am sleeping for 51 seconds landing on runway # 4
+I am plane thread 33 1. I took off from runway 6 and RELEASED SEMAPHORE
+I am plane thread 22 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 22 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 30 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 41 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 41 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 43 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 78 seconds
+I am plane thread 41 1. I am sleeping for 13 seconds while landing on runway # 4
+I am plane thread 11 0. I landed on runway 3. Releasing my semaphore now.
+I am plane 14 0, waiting on runway 3 for landing.
+I am plane thread 11 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 11 0. I am sleeping for 14 seconds landing on runway # 5
+I am plane 13 0 and I want to eventually land on runways 2 and 3
+I am plane 13 0, waiting on runway 2 for landing.
+I am plane 13 0, waiting on runway 3 for landing.
+I am plane thread 13 0. Entering the landing state. Ready for landing.
+I am plane thread 13 0. I am sleeping for 93 seconds while landing on runway # 2
+I am plane thread 37 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 37 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 37 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 11 0. I landed on runway 5. Releasing my semaphore now.
+I am plane 19 0 and I want to eventually land on runways 1 and 2
+I am plane thread 16 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 11 0. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 11 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 43 1. Entering the awaiting landing state. Almost to destination.
+I am plane 43 1 and I want to eventually land on runways 5, 3, and 2.
+I am plane 43 1, waiting on runway 5 for landing.
+I am plane 43 1, waiting on runway 3 for landing.
+I am plane 43 1, waiting on runway 2 for landing.
+I am plane thread 43 1. Entering the landing state. Ready for landing.
+I am plane thread 43 1. I am sleeping for 18 seconds while landing on runway # 5
+I am plane thread 28 0. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 28 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 4 0. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 17 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 17 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 17 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 32 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 32 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 32 1. I am sleeping for 85 seconds while landing on runway # 1
+I am plane thread 40 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 40 1. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 40 1. Take off sucessful. Now entering the flying state.
+I am plane thread 40 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 29 seconds
+I am plane thread 41 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 26 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 23 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 23 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 36 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 36 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane 25 0, waiting on runway 3 for landing.
+I am plane 25 0, waiting on runway 2 for landing.
+I am plane thread 34 1. I am sleeping for 37 seconds while landing on runway # 5
+I am plane thread 40 1. Entering the awaiting landing state. Almost to destination.
+I am plane thread 25 0. Entering the landing state. Ready for landing.
+I am plane 40 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane thread 25 0. I am sleeping for 2 seconds while landing on runway # 3
+I am plane 40 1, waiting on runway 6 for landing.
+I am plane 40 1, waiting on runway 4 for landing.
+I am plane 31 1, waiting on runway 5 for landing.
+I am plane thread 42 1. Take off sucessful. Now entering the flying state.
+I am plane 31 1, waiting on runway 3 for landing.
+I am plane thread 42 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 17 seconds
+I am plane thread 9 0. I am sleeping for 0 seconds landing on runway # 2
+I am plane thread 4 0. I am sleeping for 57 seconds while taking off from runway # 5
+I am plane thread 13 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 13 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 13 0. I am sleeping for 43 seconds landing on runway # 3
+I am plane thread 43 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 43 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 43 1. I am sleeping for 19 seconds while landing on runway # 3
+I am plane thread 44 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 44 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 44 1. Take off sucessful. Now entering the flying state.
+I am plane thread 44 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 67 seconds
+I am plane thread 26 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 23 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 26 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 20 0. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 20 0. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 20 0. I am sleeping for 47 seconds landing on runway # 3
+I am plane thread 36 1. Take off sucessful. Now entering the flying state.
+I am plane thread 35 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 7 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 36 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 95 seconds
+I am plane thread 39 1. Entering the awaiting landing state. Almost to destination.
+I am plane 39 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane 39 1, waiting on runway 6 for landing.
+I am plane thread 7 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 44 1. Entering the awaiting landing state. Almost to destination.
+I am plane 44 1 and I want to eventually land on runways 2, 3, and 5.
+I am plane 31 1, waiting on runway 2 for landing.
+I am plane thread 31 1. Entering the landing state. Ready for landing.
+I am plane thread 31 1. I am sleeping for 58 seconds while landing on runway # 5
+I am plane thread 9 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 22 0. I am sleeping for 57 seconds landing on runway # 4
+I am plane thread 14 0. Entering the landing state. Ready for landing.
+I am plane thread 14 0. I am sleeping for 59 seconds while landing on runway # 2
+I am plane thread 42 1. Entering the awaiting landing state. Almost to destination.
+I am plane 42 1 and I want to eventually land on runways 5, 3, and 2.
+I am plane 42 1, waiting on runway 5 for landing.
+I am plane 42 1, waiting on runway 3 for landing.
+I am plane thread 2 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane 42 1, waiting on runway 2 for landing.
+I am plane thread 42 1. Entering the landing state. Ready for landing.
+I am plane thread 42 1. I am sleeping for 24 seconds while landing on runway # 5
+I am plane thread 13 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 4 0. I took off from runway 5. Releasing my semaphore now.
+I am plane 19 0, waiting on runway 1 for landing.
+I am plane thread 4 0. I took off from runway 5 and released my semaphore
+I am plane 19 0, waiting on runway 2 for landing.
+I am plane thread 32 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 19 0. Entering the landing state. Ready for landing.
+I am plane thread 32 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 19 0. I am sleeping for 32 seconds while landing on runway # 1
+I am plane thread 32 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 38 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 36 1. Entering the awaiting landing state. Almost to destination.
+I am plane thread 35 1. I am sleeping for 69 seconds while landing on runway # 4
+I am plane 36 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane thread 31 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 22 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 29 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 22 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 27 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 22 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane 6 0, waiting on runway 2 for landing.
+I am plane thread 6 0. Entering the landing state. Ready for landing.
+I am plane thread 4 0. Take off sucessful. Now entering the flying state.
+I am plane thread 6 0. I am sleeping for 20 seconds while landing on runway # 1
+I am plane thread 4 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 50 seconds
+I am plane thread 13 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 13 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 20 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 35 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 35 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 25 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 6 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 25 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 31 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 31 1. I am sleeping for 80 seconds while landing on runway # 3
+I am plane 40 1, waiting on runway 1 for landing.
+I am plane thread 7 0. I am sleeping for 3 seconds landing on runway # 3
+I am plane thread 19 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 19 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 7 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 34 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 34 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 34 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 15 0. I am sleeping for 44 seconds while landing on runway # 4
+I am plane thread 41 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 41 1. I am sleeping for 20 seconds while landing on runway # 6
+I am plane thread 42 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 42 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 42 1. I am sleeping for 33 seconds while landing on runway # 3
+I am plane thread 43 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 43 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 38 1. I am sleeping for 73 seconds while landing on runway # 4
+I am plane thread 20 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane 36 1, waiting on runway 6 for landing.
+I am plane 36 1, waiting on runway 4 for landing.
+I am plane thread 14 0. I landed on runway 2. Releasing my semaphore now.
+I am plane 36 1, waiting on runway 1 for landing.
+I am plane thread 14 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 14 0. I am sleeping for 3 seconds landing on runway # 3
+I am plane 39 1, waiting on runway 4 for landing.
+I am plane 39 1, waiting on runway 1 for landing.
+I am plane thread 39 1. Entering the landing state. Ready for landing.
+I am plane thread 39 1. I am sleeping for 76 seconds while landing on runway # 6
+I am plane thread 19 0. I am sleeping for 0 seconds landing on runway # 2
+I am plane thread 38 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 38 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 38 1. I am sleeping for 50 seconds while landing on runway # 6
+I am plane thread 30 1. I took off from runway 3 and RELEASED SEMAPHORE
+I am plane thread 30 1. I am sleeping for 34 seconds while taking off from runway # 5
+I am plane thread 9 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 9 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 31 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 31 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 31 1. I am sleeping for 80 seconds while landing on runway # 2
+I am plane thread 6 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 43 1. I am sleeping for 58 seconds while landing on runway # 2
+I am plane thread 20 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 36 1. Entering the landing state. Ready for landing.
+I am plane thread 36 1. I am sleeping for 32 seconds while landing on runway # 6
+I am plane thread 35 1. I am sleeping for 31 seconds while landing on runway # 6
+I am plane thread 40 1. Entering the landing state. Ready for landing.
+I am plane thread 41 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 42 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 30 1. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 42 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 30 1. I took off from runway 5 and RELEASED SEMAPHORE
+I am plane thread 42 1. I am sleeping for 49 seconds while landing on runway # 2
+I am plane thread 30 1. Take off sucessful. Now entering the flying state.
+I am plane thread 30 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 42 seconds
+I am plane thread 12 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 36 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 36 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 36 1. I am sleeping for 49 seconds while landing on runway # 4
+I am plane thread 6 0. I am sleeping for 79 seconds landing on runway # 2
+I am plane thread 31 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 40 1. I am sleeping for 74 seconds while landing on runway # 6
+I am plane thread 41 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 41 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 4 0. Entering the awaiting landing state. Almost to destination.
+I am plane thread 30 1. Entering the awaiting landing state. Almost to destination.
+I am plane 30 1 and I want to eventually land on runways 6, 4, and 1.
+I am plane 30 1, waiting on runway 6 for landing.
+I am plane 30 1, waiting on runway 4 for landing.
+I am plane thread 36 1. I landed on runway 4. Releasing my semaphore now.
+I am plane 30 1, waiting on runway 1 for landing.
+I am plane thread 36 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 30 1. Entering the landing state. Ready for landing.
+I am plane thread 36 1. I am sleeping for 70 seconds while landing on runway # 1
+I am plane 4 0 and I want to eventually land on runways 3 and 4
+I am plane thread 10 0. I took off from runway 3. Releasing my semaphore now.
+I am plane thread 38 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 38 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 39 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 39 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 39 1. I am sleeping for 23 seconds while landing on runway # 4
+I am plane thread 25 0. I am sleeping for 3 seconds landing on runway # 2
+I am plane thread 42 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 42 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 42 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 31 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 25 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 31 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 33 1. I am sleeping for 35 seconds while taking off from runway # 4
+I am plane thread 43 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 43 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 43 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 19 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 12 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 12 0. I am sleeping for 50 seconds landing on runway # 2
+I am plane thread 40 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 29 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 33 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 29 0. I am sleeping for 71 seconds landing on runway # 5
+I am plane thread 33 1. I took off from runway 4 and RELEASED SEMAPHORE
+I am plane thread 33 1. I am sleeping for 29 seconds while taking off from runway # 1
+I am plane thread 38 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 14 0. I landed on runway 3. Releasing my semaphore now.
+I am plane 44 1, waiting on runway 2 for landing.
+I am plane thread 14 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane 44 1, waiting on runway 3 for landing.
+I am plane 44 1, waiting on runway 5 for landing.
+I am plane thread 14 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 39 1. I landed on runway 4. Releasing my semaphore now.
+I am plane 4 0, waiting on runway 3 for landing.
+I am plane thread 33 1. I took off from runway 4. Releasing my semaphore now.
+I am plane thread 6 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 33 1. I took off from runway 1 and RELEASED SEMAPHORE
+I am plane thread 6 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 40 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 40 1. I am sleeping for 18 seconds while landing on runway # 4
+I am plane thread 30 1. I am sleeping for 40 seconds while landing on runway # 6
+I am plane thread 6 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 27 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 29 0. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 19 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 19 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 29 0. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 30 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 30 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 30 1. I am sleeping for 46 seconds while landing on runway # 4
+I am plane thread 29 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 10 0. I took off from runway 3 and released my semaphore
+I am plane thread 15 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 15 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 15 0. I am sleeping for 99 seconds landing on runway # 3
+I am plane thread 44 1. Entering the landing state. Ready for landing.
+I am plane thread 44 1. I am sleeping for 30 seconds while landing on runway # 2
+I am plane thread 40 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 40 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 40 1. I am sleeping for 21 seconds while landing on runway # 1
+I am plane 4 0, waiting on runway 4 for landing.
+I am plane thread 4 0. Entering the landing state. Ready for landing.
+I am plane thread 4 0. I am sleeping for 76 seconds while landing on runway # 3
+I am plane thread 44 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 44 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 44 1. I am sleeping for 24 seconds while landing on runway # 3
+I am plane thread 27 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 10 0. Take off sucessful. Now entering the flying state.
+I am plane thread 10 0. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 44 seconds
+I am plane thread 12 0. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 12 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 12 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 33 1. Take off sucessful. Now entering the flying state.
+I am plane thread 33 1. We've entered the idle at the terminal state. Time to put on autopilot and take a nap for 58 seconds
+I am plane thread 40 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 40 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 40 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 44 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 44 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 44 1. I am sleeping for 96 seconds while landing on runway # 5
+I am plane thread 39 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 39 1. I am sleeping for 71 seconds while landing on runway # 1
+I am plane thread 35 1. I landed on runway 6. Releasing my semaphore now.
+I am plane thread 7 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 35 1. I landed on runway 6. SEMAPHORE RELEASED.
+I am plane thread 35 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 36 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 36 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 36 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 10 0. Entering the awaiting landing state. Almost to destination.
+I am plane 10 0 and I want to eventually land on runways 1 and 4
+I am plane 10 0, waiting on runway 1 for landing.
+I am plane 10 0, waiting on runway 4 for landing.
+I am plane thread 10 0. Entering the landing state. Ready for landing.
+I am plane thread 10 0. I am sleeping for 98 seconds while landing on runway # 1
+I am plane thread 25 0. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 30 1. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 25 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 30 1. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 30 1. I am sleeping for 51 seconds while landing on runway # 1
+I am plane thread 15 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 33 1. Entering the awaiting landing state. Almost to destination.
+I am plane 33 1 and I want to eventually land on runways 2, 3, and 5.
+I am plane 33 1, waiting on runway 2 for landing.
+I am plane thread 4 0. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 4 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 4 0. I am sleeping for 51 seconds landing on runway # 4
+I am plane thread 7 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 44 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 44 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 44 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane 33 1, waiting on runway 3 for landing.
+I am plane 33 1, waiting on runway 5 for landing.
+I am plane thread 33 1. Entering the landing state. Ready for landing.
+I am plane thread 30 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 30 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 4 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 33 1. I am sleeping for 1 seconds while landing on runway # 2
+I am plane thread 4 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 4 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 15 0. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 15 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 30 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 33 1. I landed on runway 2. Releasing my semaphore now.
+I am plane thread 10 0. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 10 0. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 10 0. I am sleeping for 5 seconds landing on runway # 4
+I am plane thread 33 1. I landed on runway 2. SEMAPHORE RELEASED.
+I am plane thread 33 1. I am sleeping for 80 seconds while landing on runway # 3
+I am plane thread 39 1. I landed on runway 1. Releasing my semaphore now.
+I am plane thread 39 1. I landed on runway 1. SEMAPHORE RELEASED.
+I am plane thread 39 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 10 0. I landed on runway 4. Releasing my semaphore now.
+I am plane thread 10 0. I landed on runway 4. SEMAPHORE RELEASED.
+I am plane thread 10 0 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.
+I am plane thread 33 1. I landed on runway 3. Releasing my semaphore now.
+I am plane thread 33 1. I landed on runway 3. SEMAPHORE RELEASED.
+I am plane thread 33 1. I am sleeping for 18 seconds while landing on runway # 5
+I am plane thread 33 1. I landed on runway 5. Releasing my semaphore now.
+I am plane thread 33 1. I landed on runway 5. SEMAPHORE RELEASED.
+I am plane thread 33 1 and have succesfully landed!!! Taxing back to the terminal and entering idle at the terminal state.

@@ -1,0 +1,319 @@
+I'm player 0, I'm sleeping for 1 seconds.
+Ready baseball player count 1
+I'm player 2, I'm sleeping for 1 seconds.
+Ready baseball player count 2
+I'm player 13, I'm sleeping for 1 seconds.
+Ready baseball player count 3
+I'm player 9, I'm sleeping for 1 seconds.
+Ready baseball player count 4
+I'm player 18, I'm sleeping for 1 seconds.
+Ready baseball player count 5
+I'm player 11, I'm sleeping for 1 seconds.
+Ready baseball player count 6
+I'm player 12, I'm sleeping for 1 seconds.
+Ready baseball player count 7
+I'm player 15, I'm sleeping for 1 seconds.
+Ready baseball player count 8
+I'm player 19, I'm sleeping for 1 seconds.
+Ready baseball player count 9
+I'm player 27, I'm sleeping for 1 seconds.
+Ready baseball player count 10
+I'm player 26, I'm sleeping for 1 seconds.
+Ready baseball player count 11
+I'm player 43, I'm sleeping for 1 seconds.
+Ready football player count 1
+I'm player 36, I'm sleeping for 1 seconds.
+Ready football player count 2
+I'm player 50, I'm sleeping for 1 seconds.
+Ready football player count 3
+I'm player 40, I'm sleeping for 1 seconds.
+Ready football player count 4
+I'm player 52, I'm sleeping for 1 seconds.
+Ready football player count 5
+I'm player 59, I'm sleeping for 1 seconds.
+Ready football player count 6
+I'm player 60, I'm sleeping for 1 seconds.
+Ready football player count 7
+I'm player 64, I'm sleeping for 1 seconds.
+Ready football player count 8
+I'm player 68, I'm sleeping for 1 seconds.
+Ready football player count 9
+I'm player 69, I'm sleeping for 1 seconds.
+Ready football player count 10
+I'm player 71, I'm sleeping for 1 seconds.
+Ready football player count 11
+I'm player 51, I'm sleeping for 1 seconds.
+Ready football player count 12
+I'm player 54, I'm sleeping for 1 seconds.
+Ready football player count 13
+I'm player 49, I'm sleeping for 1 seconds.
+Ready football player count 14
+I'm player 74, I'm sleeping for 1 seconds.
+Ready football player count 15
+I'm player 42, I'm sleeping for 1 seconds.
+Ready football player count 16
+I'm player 76, I'm sleeping for 1 seconds.
+Ready football player count 17
+I'm player 78, I'm sleeping for 1 seconds.
+Ready football player count 18
+I'm player 79, I'm sleeping for 1 seconds.
+Ready football player count 19
+I'm player 83, I'm sleeping for 1 seconds.
+Ready soccer player count 1
+I'm player 85, I'm sleeping for 1 seconds.
+Ready soccer player count 2
+I'm player 83, I'm a soccer player. I'm going in field right now.
+I'm player 85, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 94, I'm sleeping for 1 seconds.
+I'm player 98, I'm sleeping for 1 seconds.
+I'm player 100, I'm sleeping for 1 seconds.
+I'm player 101, I'm sleeping for 1 seconds.
+I'm player 102, I'm sleeping for 1 seconds.
+I'm player 95, I'm sleeping for 1 seconds.
+I'm player 105, I'm sleeping for 1 seconds.
+I'm player 111, I'm sleeping for 1 seconds.
+I'm player 118, I'm sleeping for 1 seconds.
+I'm player 116, I'm sleeping for 1 seconds.
+I'm player 120, I'm sleeping for 1 seconds.
+I'm player 122, I'm sleeping for 1 seconds.
+I'm player 4, I'm sleeping for 2 seconds.
+I'm player 7, I'm sleeping for 2 seconds.
+I'm player 10, I'm sleeping for 2 seconds.
+I'm player 16, I'm sleeping for 2 seconds.
+I'm player 20, I'm sleeping for 2 seconds.
+I'm player 24, I'm sleeping for 2 seconds.
+I'm player 29, I'm sleeping for 2 seconds.
+I'm player 31, I'm sleeping for 2 seconds.
+I'm player 35, I'm sleeping for 2 seconds.
+I'm player 39, I'm sleeping for 2 seconds.
+I'm player 34, I'm sleeping for 2 seconds.
+I'm player 47, I'm sleeping for 2 seconds.
+I'm player 53, I'm sleeping for 2 seconds.
+I'm player 55, I'm sleeping for 2 seconds.
+I'm player 57, I'm sleeping for 2 seconds.
+I'm player 61, I'm sleeping for 2 seconds.
+I'm player 66, I'm sleeping for 2 seconds.
+I'm player 67, I'm sleeping for 2 seconds.
+I'm player 44, I'm sleeping for 2 seconds.
+I'm player 46, I'm sleeping for 2 seconds.
+I'm player 73, I'm sleeping for 2 seconds.
+I'm player 80, I'm sleeping for 2 seconds.
+I'm player 82, I'm sleeping for 2 seconds.
+I'm player 90, I'm sleeping for 2 seconds.
+I'm player 97, I'm sleeping for 2 seconds.
+I'm player 99, I'm sleeping for 2 seconds.
+I'm player 81, I'm sleeping for 2 seconds.
+I'm player 89, I'm sleeping for 2 seconds.
+I'm player 92, I'm sleeping for 2 seconds.
+I'm player 93, I'm sleeping for 2 seconds.
+I'm player 107, I'm sleeping for 2 seconds.
+I'm player 106, I'm sleeping for 2 seconds.
+I'm player 108, I'm sleeping for 2 seconds.
+I'm player 110, I'm sleeping for 2 seconds.
+I'm player 113, I'm sleeping for 2 seconds.
+I'm player 115, I'm sleeping for 2 seconds.
+I'm player 117, I'm sleeping for 2 seconds.
+I'm player 121, I'm sleeping for 2 seconds.
+I'm player 3, I'm sleeping for 3 seconds.
+I'm player 1, I'm sleeping for 3 seconds.
+I'm player 5, I'm sleeping for 3 seconds.
+I'm player 14, I'm sleeping for 3 seconds.
+I'm player 6, I'm sleeping for 3 seconds.
+I'm player 8, I'm sleeping for 3 seconds.
+I'm player 17, I'm sleeping for 3 seconds.
+I'm player 21, I'm sleeping for 3 seconds.
+I'm player 23, I'm sleeping for 3 seconds.
+I'm player 28, I'm sleeping for 3 seconds.
+I'm player 32, I'm sleeping for 3 seconds.
+I'm player 33, I'm sleeping for 3 seconds.
+I'm player 22, I'm sleeping for 3 seconds.
+I'm player 37, I'm sleeping for 3 seconds.
+I'm player 25, I'm sleeping for 3 seconds.
+I'm player 30, I'm sleeping for 3 seconds.
+I'm player 41, I'm sleeping for 3 seconds.
+I'm player 45, I'm sleeping for 3 seconds.
+I'm player 48, I'm sleeping for 3 seconds.
+I'm player 38, I'm sleeping for 3 seconds.
+I'm player 62, I'm sleeping for 3 seconds.
+I'm player 65, I'm sleeping for 3 seconds.
+I'm player 70, I'm sleeping for 3 seconds.
+I'm player 72, I'm sleeping for 3 seconds.
+I'm player 75, I'm sleeping for 3 seconds.
+I'm player 58, I'm sleeping for 3 seconds.
+I'm player 77, I'm sleeping for 3 seconds.
+I'm player 63, I'm sleeping for 3 seconds.
+I'm player 56, I'm sleeping for 3 seconds.
+I'm player 84, I'm sleeping for 3 seconds.
+I'm player 86, I'm sleeping for 3 seconds.
+I'm player 87, I'm sleeping for 3 seconds.
+I'm player 91, I'm sleeping for 3 seconds.
+I'm player 96, I'm sleeping for 3 seconds.
+I'm player 103, I'm sleeping for 3 seconds.
+I'm player 88, I'm sleeping for 3 seconds.
+I'm player 104, I'm sleeping for 3 seconds.
+I'm player 109, I'm sleeping for 3 seconds.
+I'm player 112, I'm sleeping for 3 seconds.
+I'm player 114, I'm sleeping for 3 seconds.
+I'm player 119, I'm sleeping for 3 seconds.
+I'm player 123, I'm sleeping for 3 seconds.
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 94, I'm a soccer player. I'm going in field right now.
+I'm player 98, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 83, I'm a soccer player. I'm leaving the field right now.
+I'm player 85, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+I'm player 85, I'm sleeping for 3 seconds.
+I'm player 94, I'm a soccer player. I'm leaving the field right now.
+I'm player 98, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 101, I'm a soccer player. I'm going in field right now.
+I'm player 102, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 98, I'm sleeping for 1 seconds.
+I'm player 101, I'm a soccer player. I'm leaving the field right now.
+I'm player 102, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 105, I'm a soccer player. I'm going in field right now.
+I'm player 111, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 102, I'm sleeping for 3 seconds.
+I'm player 105, I'm a soccer player. I'm leaving the field right now.
+I'm player 111, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 116, I'm a soccer player. I'm going in field right now.
+I'm player 120, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 111, I'm sleeping for 3 seconds.
+I'm player 116, I'm a soccer player. I'm leaving the field right now.
+I'm player 120, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready baseball player count 12
+Ready baseball player count 13
+Ready baseball player count 14
+Ready baseball player count 15
+Ready baseball player count 16
+Ready baseball player count 17
+Ready baseball player count 18
+I'm player 0, I'm a baseball player. I'm going in field right now.
+I'm player 2, I'm a baseball player. I'm going in field right now.
+I'm player 13, I'm a baseball player. I'm going in field right now.
+I'm player 9, I'm a baseball player. I'm going in field right now.
+I'm player 18, I'm a baseball player. I'm going in field right now.
+I'm player 11, I'm a baseball player. I'm going in field right now.
+I'm player 12, I'm a baseball player. I'm going in field right now.
+I'm player 15, I'm a baseball player. I'm going in field right now.
+I'm player 19, I'm a baseball player. I'm going in field right now.
+I'm player 27, I'm a baseball player. I'm going in field right now.
+I'm player 26, I'm a baseball player. I'm going in field right now.
+I'm player 4, I'm a baseball player. I'm going in field right now.
+I'm player 7, I'm a baseball player. I'm going in field right now.
+I'm player 10, I'm a baseball player. I'm going in field right now.
+I'm player 16, I'm a baseball player. I'm going in field right now.
+I'm player 20, I'm a baseball player. I'm going in field right now.
+I'm player 24, I'm a baseball player. I'm going in field right now.
+I'm player 29, I'm a baseball player. I'm going in field right now.
+Park: Now playing to baseball!
+I'm player 120, I'm sleeping for 2 seconds.
+I'm player 0, I'm a baseball player. I'm leaving the field right now.
+I'm player 2, I'm a baseball player. I'm leaving the field right now.
+I'm player 13, I'm a baseball player. I'm leaving the field right now.
+I'm player 9, I'm a baseball player. I'm leaving the field right now.
+I'm player 18, I'm a baseball player. I'm leaving the field right now.
+I'm player 11, I'm a baseball player. I'm leaving the field right now.
+I'm player 12, I'm a baseball player. I'm leaving the field right now.
+I'm player 15, I'm a baseball player. I'm leaving the field right now.
+I'm player 19, I'm a baseball player. I'm leaving the field right now.
+I'm player 27, I'm a baseball player. I'm leaving the field right now.
+I'm player 26, I'm a baseball player. I'm leaving the field right now.
+I'm player 4, I'm a baseball player. I'm leaving the field right now.
+I'm player 7, I'm a baseball player. I'm leaving the field right now.
+I'm player 10, I'm a baseball player. I'm leaving the field right now.
+I'm player 16, I'm a baseball player. I'm leaving the field right now.
+I'm player 20, I'm a baseball player. I'm leaving the field right now.
+I'm player 24, I'm a baseball player. I'm leaving the field right now.
+I'm player 29, I'm a baseball player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready baseball player count 1
+Ready football player count 20
+Ready baseball player count 2
+Ready football player count 21
+Ready football player count 22
+I'm player 43, I'm a football player. I'm going in field right now.
+I'm player 36, I'm a football player. I'm going in field right now.
+I'm player 50, I'm a football player. I'm going in field right now.
+I'm player 40, I'm a football player. I'm going in field right now.
+I'm player 52, I'm a football player. I'm going in field right now.
+I'm player 59, I'm a football player. I'm going in field right now.
+I'm player 60, I'm a football player. I'm going in field right now.
+I'm player 64, I'm a football player. I'm going in field right now.
+I'm player 68, I'm a football player. I'm going in field right now.
+I'm player 69, I'm a football player. I'm going in field right now.
+I'm player 71, I'm a football player. I'm going in field right now.
+I'm player 51, I'm a football player. I'm going in field right now.
+I'm player 54, I'm a football player. I'm going in field right now.
+I'm player 49, I'm a football player. I'm going in field right now.
+I'm player 74, I'm a football player. I'm going in field right now.
+I'm player 42, I'm a football player. I'm going in field right now.
+I'm player 76, I'm a football player. I'm going in field right now.
+I'm player 78, I'm a football player. I'm going in field right now.
+I'm player 79, I'm a football player. I'm going in field right now.
+I'm player 39, I'm a football player. I'm going in field right now.
+I'm player 47, I'm a football player. I'm going in field right now.
+I'm player 53, I'm a football player. I'm going in field right now.
+Park: Now playing to football!
+I'm player 29, I'm sleeping for 3 seconds.
+I'm player 43, I'm a football player. I'm leaving the field right now.
+I'm player 36, I'm a football player. I'm leaving the field right now.
+I'm player 50, I'm a football player. I'm leaving the field right now.
+I'm player 40, I'm a football player. I'm leaving the field right now.
+I'm player 52, I'm a football player. I'm leaving the field right now.
+I'm player 59, I'm a football player. I'm leaving the field right now.
+I'm player 60, I'm a football player. I'm leaving the field right now.
+I'm player 64, I'm a football player. I'm leaving the field right now.
+I'm player 68, I'm a football player. I'm leaving the field right now.
+I'm player 69, I'm a football player. I'm leaving the field right now.
+I'm player 71, I'm a football player. I'm leaving the field right now.
+I'm player 51, I'm a football player. I'm leaving the field right now.
+I'm player 54, I'm a football player. I'm leaving the field right now.
+I'm player 49, I'm a football player. I'm leaving the field right now.
+I'm player 74, I'm a football player. I'm leaving the field right now.
+I'm player 42, I'm a football player. I'm leaving the field right now.
+I'm player 76, I'm a football player. I'm leaving the field right now.
+I'm player 78, I'm a football player. I'm leaving the field right now.
+I'm player 79, I'm a football player. I'm leaving the field right now.
+I'm player 39, I'm a football player. I'm leaving the field right now.
+I'm player 47, I'm a football player. I'm leaving the field right now.
+I'm player 53, I'm a football player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready football player count 1
+Ready football player count 2
+Ready football player count 3
+Ready football player count 4
+Ready football player count 5
+Ready football player count 6
+Ready football player count 7
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 80, I'm a soccer player. I'm going in field right now.
+I'm player 82, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 53, I'm sleeping for 1 seconds.
+I'm player 80, I'm a soccer player. I'm leaving the field right now.
+I'm player 82, I'm a soccer player. I'm leaving the field right now.
+Park: A team has now left the field.
+Ready soccer player count 1
+Ready soccer player count 2
+I'm player 97, I'm a soccer player. I'm going in field right now.
+I'm player 99, I'm a soccer player. I'm going in field right now.
+Park: Now playing to soccer!
+I'm player 82, I'm sleeping for 2 seconds.
+^C

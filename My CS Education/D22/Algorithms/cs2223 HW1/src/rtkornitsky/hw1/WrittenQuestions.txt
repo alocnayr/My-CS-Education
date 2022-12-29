@@ -1,0 +1,51 @@
+<<Ryan Kornitsky>>
+HW1
+Written Questions
+
+Question 1 Stack Experiments)
+
+1.1) 
+( 3 2 * / 5 ) 
+a) output: 0.4
+b) ops stack: [*]
+c) vals stack: [3.0]
+
+1.2)
+( 4 + + 1 )
+a) output: 5.0
+b) ops stack: [+]
+c) vals stack: [] //empty
+
+1.3)
+- 76
+a) output: 76.0
+b) ops stack: [-]
+c) vals stack: [] //empty
+
+1.4)
+( 8 * ( 9 + ( 3 + 4
+a) output: 4.0
+b) ops stack: [*, +, +]
+c) vals stack: [8.0, 9.0. 3.0]
+
+1.5)
+( ( 3 + 1 ) / ( ( 4 * 1 ) / ( 5 - 9 ) ) )
+a) output: -4.0
+b) ops stack: [] //empty
+c) vals stack: [] //empty
+
+1.7)
+( 2 exp ( 17 log 4 ) )
+a) output: 5.682709962221899
+b) ops stack: [] //empty
+c) vals stack: [] //empty
+
+Explanation) Everytime there is a “(“, we are pushing the corresponding operation 
+onto the stack and whenever there is a “)”, we are popping an operation off of the ops stack 
+and finding out what operator it is. We then evaluate the expression based on whatever operator 
+we find and push that onto the vals stack. We then do this until the input expression/equation is empty.
+
+
+Bonus Questions:
+
+Q4.1.2) O(N^3)

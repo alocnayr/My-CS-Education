@@ -1,0 +1,1 @@
+During this HCI course, we had to complete a term-long project where we ultimately developed a high-fidelity prototype of an application of our choice. A video showcasing the project can be seen here: https://www.youtube.com/watch?v=aEth7JmmR8Y&ab_channel=Ryan_Cola

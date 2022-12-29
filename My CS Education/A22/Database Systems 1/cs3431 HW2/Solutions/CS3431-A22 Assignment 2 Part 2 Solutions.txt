@@ -1,0 +1,55 @@
+-- 2a.
+select city, G.gallery, count(*)
+from Gallery G
+    join Building B on B.buildingName = G.building
+    join Artwork A on A.gallery = G.gallery
+where year in (2009, 2013, 2019)
+group by rollup (city, G.gallery)
+order by city, G.gallery;
+
+  -- using or statements in the where clause is also correct
+
+-- 2b.
+select A.artistID, firstName, lastName
+from Artwork AR
+   join Artist A on AR.artistID = A.artistID
+where year = 2012
+MINUS
+select A.artistID, firstName, lastName
+from NewArt N
+   join Artist A on N.artistID = A.artistID
+where year = 2020
+order by firstName, lastName;
+
+-- 2c.
+select title, gallery, year, price
+from Artwork
+where price > 75 and
+materialsID in (
+	select materialsID 
+	from Materials
+	where medium like '%glass%')
+order by title;
+
+-- 2d.
+select AR.year, ticketPrice,
+    to_char(sum(price), '$999,999') as TotalArtValue, 
+    to_char(count(chosen) * ticketPrice, '$999,999')  as TicketRevenue,
+    to_char(sum(price) - count(chosen) * ticketPrice, '$999,999') as CustomerSurplus
+from Artwork AR
+    join TicketPrice T on AR.year = T.year
+where chosen is not null
+group by AR.year, ticketPrice
+order by AR.year DESC;
+
+-- 2e.
+select firstName, lastName, sum(price) as MaxDonatedValue
+from Artwork AR
+    join Artist A on AR.artistID = A.artistID
+group by firstName, lastName
+having sum(price) = 
+     (select max(SUM) as MaxSum
+      from (select sum(price) as SUM
+            from Artwork AR
+            group by artistID));
+

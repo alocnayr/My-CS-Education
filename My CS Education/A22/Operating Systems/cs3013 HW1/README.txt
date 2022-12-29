@@ -1,0 +1,23 @@
+This is project 1 for CS3013. This project aims to learn process creation and termination, as well as information sharing between processes and the structure of processes.
+
+--------------------------------PROLIFIC.C-------------------------------------
+
+In part one of the project, we wrote a program that creates a random number of children who emerges and terminates in a random period of time. We used fork(), waitpid(), getpid(), exit(), and sleep() to accomplish the functionality. A for loop is used to create each child, and the waitpid() keeps track of when one child is terminated to move on to the next child. We tested our program through seed.txt and the project description. The program compiles and outputs the expected results. The child processes wait the given random amount of time before continuing and output the proper exit code. Since the results match, we ensure that it is correct.
+
+
+-------------------------------GENERATION.C-------------------------------------
+
+In part two of the project, we wrote a program that creates a random number of generations of children until the count becomes zero. We used fork(), waitpid(), wait(), getpid(), and exit() to accomplish the functionality. A recursive structure is implemented to create the generations of children, and wait() and waitpid() keeps track of when the child process has terminated. We tested our program through seed.txt and the project description. The program compiles and outputs the expected results. The count and descendant counts match the expected output. Since the program result has the same pattern as the example output, we ensure that it is correct. We also used a helper function to make our code more readable and cleaner.
+
+-------------------------------EXPLORER.C---------------------------------------
+
+In part three of the project, we wrote a program in which a parent process moves around the file system and create child processes to execute specific commands in whichever file location it choses out of the 6 choices. We made use of the the functions chdir() to change the directory, getcdw() to output the processes current working directory, and we used execvp() to run the ls -tr command when the child process got to the changed directory. We made use of an array to store all of the given directories for this part, which made for easy and quick access. A for loop is used to create each child. Since the program result has the same pattern as the example output, we ensure that it is correct.
+
+
+---------------------------------SLUG.C-------------------------------------------
+
+In part four of the project, we wrote a program that makes use of a "slug" to take in a command line argument and based on that command line argument, read a seed value from one of the various seed text files. The slug then generates a random number that indicates how long it will wait for before calling one of the two given commands. In this part, we use sleep() to make the slugs wait a random number of time before executing execvp(), which will execute one of the two given commands. We also made use of multiple arrays to store either the commands that we wanted our child processes to run or to store the seed text files, both for very easy access. Since the program result has the same pattern as the example output, we ensure that it is correct.
+
+-------------------------------SLUGRACE.C----------------------------------------
+
+In the final part of the project, we wrote a program that uses the slug.c file to create multiple slug processes and race them. There was a lot of information to keep track of in this problem, so we used arrays to store and keep track of a lot of our data (to keep track of child and their pid, to properly execute command line arguments, etc.). We also used a for loop and a while loop to initally spawn all of the child processes and run 4 versions of slug.c to start the race and then a second for loop to run that actual race and get the time elapsed. We used usleep() to print an update on the race every 0.5 sec, waitpid() like in part one to wait for a child's pid, fork() to spawn child processes clock_gettime() to get an actual measurement of how long the race will last, and various counters to keep track of children and their pids through passing in the counters as an array index. The program compiles and outputs the expected results. The child processes/slugs wait the given random amount of time before continuing, reads a random seed value, the correct child exits when it's done with the race, and so one. Since the results match, we ensure that it is correct.

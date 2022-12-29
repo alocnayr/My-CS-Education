@@ -1,0 +1,8 @@
+Artwork (year PK FK, artworkID PK, artistID FK, title, materialsID FK, price, chosen, purchased, purchaseDate, gallery FK)
+NewArt  (year PK FK, artworkID PK, artistID FK, title, materialsID FK, price, chosen, purchased, purchaseDate, gallery FK)
+Artist (artistID PK, firstName, lastName, city, state, memberLevel FK)
+Membership (memberLevel PK, yearlyFee, discount)
+Materials (materialsID, category, medium)
+Gallery (gallery PK, floor, building FK)
+Building (buildingName PK, street, city, state, zipcode)
+TicketPrice (year PK, price)

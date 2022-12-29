@@ -1,0 +1,53 @@
+label {
+	display: block;
+}
+
+input {
+
+height: 30px;
+font-size: 30px;
+
+}
+
+form {
+
+padding: 10px;
+
+} 
+
+.error {
+	background-color: LightYellow;
+	color: DarkRed;
+	width: 160px;
+	padding: 0px;
+	border: 1px solid gray;
+	position: absolute;
+	left: 120px;
+	box-shadow: 3px 3px 3px #999999;
+	border-radius: 7px;
+	visibility: hidden;
+}
+
+input[type='submit'] {
+	
+width: 100px;
+height: 30px;
+margin: 5px;
+font-size: 16px;
+	
+border-image: url("blueButton.png") 0 14 0 14 stretch;
+
+} 
+
+input:required {
+  background-color: red;
+}
+
+input:invalid {
+  background-color: red;
+ 
+}
+
+input:valid {
+  background-color: green;
+}

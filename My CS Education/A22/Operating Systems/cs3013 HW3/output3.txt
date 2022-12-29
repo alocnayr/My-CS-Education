@@ -1,0 +1,12 @@
+Instruction?: 0,map,1,0
+Put page table for PID 0 into physical frame 0
+Mapped virtual address 1 (page 0) into physical frame 1
+Instruction?: 0,map,1,0
+Error: virtual page 0 is already mapped with rw_bit=0
+Instruction?: 1,store,1,0
+Error: Segmentation fault! Go get a page! 
+Instruction?: 2,map,2,2
+Put page table for PID 2 into physical frame 2
+Mapped virtual address 2 (page 0) into physical frame 3
+Instruction?: 4,map,2,3
+Wrong PID!

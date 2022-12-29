@@ -1,0 +1,419 @@
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ script project1
+Script started, output log file is 'project1'.
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ make
+gcc prolific.c -o prolific
+gcc generation.c -o generation
+gcc explorer.c -o explorer
+gcc slug.c -o slug
+gcc slugrace.c -o slugrace
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ ./prolific 
+Read seed value (converted to integer): 12345
+Random child Count: 6
+I'm feeling prolific!
+[Parent]: I am waiting for PID 10893 to finish.
+    [Child, PID: 10893]: I am the child and I will wait 3 seconds and exit with code 22
+    [Child, PID: 10893]: Now exiting ...
+[Parent]: Child 10893 finished with status code 22. Onward!
+[Parent]: I am waiting for PID 10894 to finish.
+    [Child, PID: 10894]: I am the child and I will wait 3 seconds and exit with code 24
+    [Child, PID: 10894]: Now exiting ...
+[Parent]: Child 10894 finished with status code 24. Onward!
+[Parent]: I am waiting for PID 10895 to finish.
+    [Child, PID: 10895]: I am the child and I will wait 2 seconds and exit with code 2
+    [Child, PID: 10895]: Now exiting ...
+[Parent]: Child 10895 finished with status code 2. Onward!
+[Parent]: I am waiting for PID 10896 to finish.
+    [Child, PID: 10896]: I am the child and I will wait 1 seconds and exit with code 22
+    [Child, PID: 10896]: Now exiting ...
+[Parent]: Child 10896 finished with status code 22. Onward!
+[Parent]: I am waiting for PID 10897 to finish.
+    [Child, PID: 10897]: I am the child and I will wait 1 seconds and exit with code 5
+    [Child, PID: 10897]: Now exiting ...
+[Parent]: Child 10897 finished with status code 5. Onward!
+[Parent]: I am waiting for PID 10898 to finish.
+    [Child, PID: 10898]: I am the child and I will wait 3 seconds and exit with code 38
+    [Child, PID: 10898]: Now exiting ...
+[Parent]: Child 10898 finished with status code 38. Onward!
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ ./generation 
+Read seed value (converted to integer): 12345
+Random Descendant Count: 9
+Time to meet the kids/grandkids/great grand kid/...
+[Parent, PID: 10900]: I am waiting for PID 10901 to finish.
+    [Child, PID: 10901]: I was called with descendant count=9. I'll have 8 descendant(s)
+[Parent, PID: 10901]: I am waiting for PID 10902 to finish.
+    [Child, PID: 10902]: I was called with descendant count=8. I'll have 7 descendant(s)
+[Parent, PID: 10902]: I am waiting for PID 10903 to finish.
+    [Child, PID: 10903]: I was called with descendant count=7. I'll have 6 descendant(s)
+[Parent, PID: 10903]: I am waiting for PID 10904 to finish.
+    [Child, PID: 10904]: I was called with descendant count=6. I'll have 5 descendant(s)
+[Parent, PID: 10904]: I am waiting for PID 10905 to finish.
+    [Child, PID: 10905]: I was called with descendant count=5. I'll have 4 descendant(s)
+[Parent, PID: 10905]: I am waiting for PID 10906 to finish.
+    [Child, PID: 10906]: I was called with descendant count=4. I'll have 3 descendant(s)
+[Parent, PID: 10906]: I am waiting for PID 10907 to finish.
+    [Child, PID: 10907]: I was called with descendant count=3. I'll have 2 descendant(s)
+[Parent, PID: 10907]: I am waiting for PID 10908 to finish.
+    [Child, PID: 10908]: I was called with descendant count=2. I'll have 1 descendant(s)
+[Parent, PID: 10908]: I am waiting for PID 10909 to finish.
+    [Child, PID: 10909]: I was called with descendant count=1. I'll have 0 descendant(s)
+[Parent, PID: 10909]: Child 10908 finished with status code 0. It's now my turn to exit.
+[Parent, PID: 10908]: Child 10907 finished with status code 1. It's now my turn to exit.
+[Parent, PID: 10907]: Child 10906 finished with status code 2. It's now my turn to exit.
+[Parent, PID: 10906]: Child 10905 finished with status code 3. It's now my turn to exit.
+[Parent, PID: 10905]: Child 10904 finished with status code 4. It's now my turn to exit.
+[Parent, PID: 10904]: Child 10903 finished with status code 5. It's now my turn to exit.
+[Parent, PID: 10903]: Child 10902 finished with status code 6. It's now my turn to exit.
+[Parent, PID: 10902]: Child 10901 finished with status code 7. It's now my turn to exit.
+[Parent, PID: 10901]: Child 10900 finished with status code 8. It's now my turn to exit.
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ ./explorer 
+Read seed value (converted to integer): 12345
+It's time to see the world/file system!
+Selection #1: /usr [SUCESS]
+Current reported directory: /usr
+[Parent]: I am waiting for PID 10939 to finish.
+    [Child, PID: 10939]: Executing 'ls -tr' command...
+libx32	lib32  local  lib64  games  libexec  share  lib  include  bin  src  sbin
+[Parent]: Child 10939 finished with status code 0. Onward!
+Selection #2: /sbin [SUCESS]
+Current reported directory: /sbin
+[Parent]: I am waiting for PID 10940 to finish.
+    [Child, PID: 10940]: Executing 'ls -tr' command...
+update-grub-gfxpayload	    wipefs	     aptd		    rarp		       e2scrub		      insmod
+tzconfig		    uuidd	     accessdb		    plipconfig		       e2image		      init
+update-fonts-alias	    switch_root      create-cracklib-dict   nameif		       e2fsck		      ip6tables-translate
+update-fonts-dir	    swapon	     cracklib-unpacker	    mii-tool		       e2freefrag	      ip6tables-save
+update-fonts-scale	    swapoff	     cracklib-packer	    iptunnel		       dumpe2fs		      ip6tables-restore-translate
+update-xmlcatalog	    swaplabel	     cracklib-format	    ipmaddr		       debugfs		      ip6tables-restore
+on_ac_power		    sulogin	     cracklib-check	    ifconfig		       badblocks	      ip6tables-nft-save
+update-cracklib		    sfdisk	     plymouthd		    arp			       wpa_supplicant	      ip6tables-nft-restore
+gnome-menus-blacklist	    runuser	     openvpn		    partprobe		       wpa_cli		      ip6tables-nft
+update-catalog		    rtcwake	     thermald		    parted		       ntfsundelete	      ip6tables-legacy-save
+install-sgmlcatalog	    rfkill	     anacron		    pccardctl		       ntfsresize	      ip6tables-legacy-restore
+pam_getenv		    readprofile      avahi-daemon	    pptpsetup		       ntfslabel	      ip6tables-legacy
+update-inetd		    pivot_root	     avahi-autoipd	    pptp		       ntfscp		      ip6tables-apply
+deluser			    mkswap	     update-passwd	    tarcat		       ntfsclone	      ip6tables
+adduser			    mkfs.minix	     nft		    rmt-tar		       mkntfs		      ip
+iptables-apply		    mkfs.cramfs      cron		    usb_modeswitch_dispatcher  NetworkManager	      iptables-translate
+alsa			    mkfs.bfs	     update-shells	    usb_modeswitch	       apparmor_parser	      iptables-save
+update-secureboot-policy    mkfs	     remove-shell	    usbmuxd		       aa-status	      iptables-restore-translate
+vpddecode		    losetup	     installkernel	    zerofree		       aa-remove-unknown      iptables-restore
+ownership		    ldattach	     add-shell		    rtkitctl		       dhclient-script	      iptables-nft-save
+dmidecode		    isosize	     mkfs.fat		    iwspy		       dhclient		      iptables-nft-restore
+biosdecode		    hwclock	     fsck.fat		    iwpriv		       applygnupgdefaults     iptables-nft
+update-pciids		    fstrim	     fatlabel		    iwlist		       addgnupghome	      iptables-legacy-save
+iucode_tool		    fsfreeze	     getweb		    iwgetid		       validlocale	      iptables-legacy-restore
+update-ca-certificates	    fsck.minix	     mount.fuse3	    iwevent		       update-locale	      iptables-legacy
+shadowconfig		    fsck.cramfs      sgdisk		    iwconfig		       locale-gen	      iptables
+brltty-setup		    fsck	     gdisk		    ipp-usb		       zic		      iucode-tool
+update-dictcommon-hunspell  findfs	     fixparts		    saned		       ldconfig.real	      lspcmcia
+update-dictcommon-aspell    fdisk	     cgdisk		    wpa_action		       ldconfig		      lsmod
+update-default-wordlist     ctrlaltdel	     update-gsfontmap	    umount.udisks2	       iconvconfig	      mkdosfs
+update-default-ispell	    chmem	     hdparm		    cups-browsed	       addgroup		      mkfs.ext4
+select-default-wordlist     chcpu	     unix_update	    upgrade-from-grub-legacy   apparmor_status	      mkfs.ext3
+select-default-ispell	    cfdisk	     unix_chkpwd	    update-grub		       arptables-save	      mkfs.ext2
+remove-default-wordlist     blockdev	     pam_timestamp_check    grub-set-default	       arptables-restore      mkfs.vfat
+remove-default-ispell	    blkzone	     pam_extrausers_update  grub-reboot		       arptables-nft-save     mkfs.ntfs
+ispell-autobuildhash	    blkid	     pam_extrausers_chkpwd  grub-probe		       arptables-nft-restore  mkfs.msdos
+aspell-autobuildhash	    blkdiscard	     mkhomedir_helper	    grub-mkdevicemap	       arptables-nft	      mount.ntfs-3g
+update-rc.d		    agetty	     faillock		    grub-mkconfig	       arptables	      mount.ntfs
+invoke-rc.d		    spice-vdagentd   vdpa		    grub-macbless	       brltty		      mount.lowntfs-3g
+update-mime		    pppstats	     tipc		    grub-install	       bluetoothd	      mount.fuse
+killall5		    pppoe-discovery  tc			    gdm3		       cpgr		      modprobe
+fstab-decode		    pppdump	     rtmon		    dnsmasq		       cupsreject	      modinfo
+make-ssl-cert		    pppd	     rtacct		    rsyslogd		       cupsenable	      netplan
+u-d-c-print-pci-ids	    chat	     genl		    update-icon-caches	       cupsdisable	      poweroff
+alsa-info		    sysctl	     devlink		    start-stop-daemon	       depmod		      reboot
+alsactl			    vipw	     dcb		    logrotate		       delgroup		      rmt
+alsabat-test		    usermod	     bridge		    lpmove		       dmstats		      rmmod
+ethtool			    userdel	     arpd		    lpinfo		       dosfslabel	      runlevel
+acpid			    useradd	     xtables-nft-multi	    lpc			       dosfsck		      shutdown
+update-info-dir		    pwunconv	     xtables-legacy-multi   lpadmin		       e2mmpstatus	      telinit
+chroot			    pwconv	     nfnl_osf		    ippeveprinter	       e2label		      update-default-aspell
+pam-auth-update		    pwck	     irqbalance-ui	    cupsfilter		       ebtables-save	      update-grub2
+update-initramfs	    nologin	     irqbalance		    cupsd		       ebtables-restore       vigr
+aa-teardown		    newusers	     vcstime		    cupsctl		       ebtables-nft-save      xtables-monitor
+visudo			    grpunconv	     setvtrgb		    cupsaccept		       ebtables-nft-restore   VBoxService
+sudo_sendlog		    grpconv	     setvesablank	    tune2fs		       ebtables-nft	      vbox-greeter
+sudo_logsrvd		    grpck	     kbdrate		    resize2fs		       ebtables		      rcvboxadd
+service			    groupmod	     kerneloops		    mklost+found	       fsck.ext4	      rcvboxadd-service
+ModemManager		    groupmems	     setcap		    mke2fs		       fsck.ext3	      vbox-uninstall-guest-additions
+dmsetup			    groupdel	     getpcaps		    logsave		       fsck.ext2	      mount.vboxsf
+blkdeactivate		    groupadd	     getcap		    filefrag		       fsck.vfat
+ufw			    cppw	     capsh		    e4defrag		       fsck.msdos
+dpkg-reconfigure	    chpasswd	     paperconfig	    e4crypt		       getty
+dpkg-preconfigure	    chgpasswd	     slattach		    e2undo		       grub-bios-setup
+zramctl			    mkinitramfs      route		    e2scrub_all		       halt
+[Parent]: Child 10940 finished with status code 0. Onward!
+Selection #3: /sbin [SUCESS]
+Current reported directory: /sbin
+[Parent]: I am waiting for PID 10941 to finish.
+    [Child, PID: 10941]: Executing 'ls -tr' command...
+update-grub-gfxpayload	    wipefs	     aptd		    rarp		       e2scrub		      insmod
+tzconfig		    uuidd	     accessdb		    plipconfig		       e2image		      init
+update-fonts-alias	    switch_root      create-cracklib-dict   nameif		       e2fsck		      ip6tables-translate
+update-fonts-dir	    swapon	     cracklib-unpacker	    mii-tool		       e2freefrag	      ip6tables-save
+update-fonts-scale	    swapoff	     cracklib-packer	    iptunnel		       dumpe2fs		      ip6tables-restore-translate
+update-xmlcatalog	    swaplabel	     cracklib-format	    ipmaddr		       debugfs		      ip6tables-restore
+on_ac_power		    sulogin	     cracklib-check	    ifconfig		       badblocks	      ip6tables-nft-save
+update-cracklib		    sfdisk	     plymouthd		    arp			       wpa_supplicant	      ip6tables-nft-restore
+gnome-menus-blacklist	    runuser	     openvpn		    partprobe		       wpa_cli		      ip6tables-nft
+update-catalog		    rtcwake	     thermald		    parted		       ntfsundelete	      ip6tables-legacy-save
+install-sgmlcatalog	    rfkill	     anacron		    pccardctl		       ntfsresize	      ip6tables-legacy-restore
+pam_getenv		    readprofile      avahi-daemon	    pptpsetup		       ntfslabel	      ip6tables-legacy
+update-inetd		    pivot_root	     avahi-autoipd	    pptp		       ntfscp		      ip6tables-apply
+deluser			    mkswap	     update-passwd	    tarcat		       ntfsclone	      ip6tables
+adduser			    mkfs.minix	     nft		    rmt-tar		       mkntfs		      ip
+iptables-apply		    mkfs.cramfs      cron		    usb_modeswitch_dispatcher  NetworkManager	      iptables-translate
+alsa			    mkfs.bfs	     update-shells	    usb_modeswitch	       apparmor_parser	      iptables-save
+update-secureboot-policy    mkfs	     remove-shell	    usbmuxd		       aa-status	      iptables-restore-translate
+vpddecode		    losetup	     installkernel	    zerofree		       aa-remove-unknown      iptables-restore
+ownership		    ldattach	     add-shell		    rtkitctl		       dhclient-script	      iptables-nft-save
+dmidecode		    isosize	     mkfs.fat		    iwspy		       dhclient		      iptables-nft-restore
+biosdecode		    hwclock	     fsck.fat		    iwpriv		       applygnupgdefaults     iptables-nft
+update-pciids		    fstrim	     fatlabel		    iwlist		       addgnupghome	      iptables-legacy-save
+iucode_tool		    fsfreeze	     getweb		    iwgetid		       validlocale	      iptables-legacy-restore
+update-ca-certificates	    fsck.minix	     mount.fuse3	    iwevent		       update-locale	      iptables-legacy
+shadowconfig		    fsck.cramfs      sgdisk		    iwconfig		       locale-gen	      iptables
+brltty-setup		    fsck	     gdisk		    ipp-usb		       zic		      iucode-tool
+update-dictcommon-hunspell  findfs	     fixparts		    saned		       ldconfig.real	      lspcmcia
+update-dictcommon-aspell    fdisk	     cgdisk		    wpa_action		       ldconfig		      lsmod
+update-default-wordlist     ctrlaltdel	     update-gsfontmap	    umount.udisks2	       iconvconfig	      mkdosfs
+update-default-ispell	    chmem	     hdparm		    cups-browsed	       addgroup		      mkfs.ext4
+select-default-wordlist     chcpu	     unix_update	    upgrade-from-grub-legacy   apparmor_status	      mkfs.ext3
+select-default-ispell	    cfdisk	     unix_chkpwd	    update-grub		       arptables-save	      mkfs.ext2
+remove-default-wordlist     blockdev	     pam_timestamp_check    grub-set-default	       arptables-restore      mkfs.vfat
+remove-default-ispell	    blkzone	     pam_extrausers_update  grub-reboot		       arptables-nft-save     mkfs.ntfs
+ispell-autobuildhash	    blkid	     pam_extrausers_chkpwd  grub-probe		       arptables-nft-restore  mkfs.msdos
+aspell-autobuildhash	    blkdiscard	     mkhomedir_helper	    grub-mkdevicemap	       arptables-nft	      mount.ntfs-3g
+update-rc.d		    agetty	     faillock		    grub-mkconfig	       arptables	      mount.ntfs
+invoke-rc.d		    spice-vdagentd   vdpa		    grub-macbless	       brltty		      mount.lowntfs-3g
+update-mime		    pppstats	     tipc		    grub-install	       bluetoothd	      mount.fuse
+killall5		    pppoe-discovery  tc			    gdm3		       cpgr		      modprobe
+fstab-decode		    pppdump	     rtmon		    dnsmasq		       cupsreject	      modinfo
+make-ssl-cert		    pppd	     rtacct		    rsyslogd		       cupsenable	      netplan
+u-d-c-print-pci-ids	    chat	     genl		    update-icon-caches	       cupsdisable	      poweroff
+alsa-info		    sysctl	     devlink		    start-stop-daemon	       depmod		      reboot
+alsactl			    vipw	     dcb		    logrotate		       delgroup		      rmt
+alsabat-test		    usermod	     bridge		    lpmove		       dmstats		      rmmod
+ethtool			    userdel	     arpd		    lpinfo		       dosfslabel	      runlevel
+acpid			    useradd	     xtables-nft-multi	    lpc			       dosfsck		      shutdown
+update-info-dir		    pwunconv	     xtables-legacy-multi   lpadmin		       e2mmpstatus	      telinit
+chroot			    pwconv	     nfnl_osf		    ippeveprinter	       e2label		      update-default-aspell
+pam-auth-update		    pwck	     irqbalance-ui	    cupsfilter		       ebtables-save	      update-grub2
+update-initramfs	    nologin	     irqbalance		    cupsd		       ebtables-restore       vigr
+aa-teardown		    newusers	     vcstime		    cupsctl		       ebtables-nft-save      xtables-monitor
+visudo			    grpunconv	     setvtrgb		    cupsaccept		       ebtables-nft-restore   VBoxService
+sudo_sendlog		    grpconv	     setvesablank	    tune2fs		       ebtables-nft	      vbox-greeter
+sudo_logsrvd		    grpck	     kbdrate		    resize2fs		       ebtables		      rcvboxadd
+service			    groupmod	     kerneloops		    mklost+found	       fsck.ext4	      rcvboxadd-service
+ModemManager		    groupmems	     setcap		    mke2fs		       fsck.ext3	      vbox-uninstall-guest-additions
+dmsetup			    groupdel	     getpcaps		    logsave		       fsck.ext2	      mount.vboxsf
+blkdeactivate		    groupadd	     getcap		    filefrag		       fsck.vfat
+ufw			    cppw	     capsh		    e4defrag		       fsck.msdos
+dpkg-reconfigure	    chpasswd	     paperconfig	    e4crypt		       getty
+dpkg-preconfigure	    chgpasswd	     slattach		    e2undo		       grub-bios-setup
+zramctl			    mkinitramfs      route		    e2scrub_all		       halt
+[Parent]: Child 10941 finished with status code 0. Onward!
+Selection #4: /proc [SUCESS]
+Current reported directory: /proc
+[Parent]: I am waiting for PID 10942 to finish.
+    [Child, PID: 10942]: Executing 'ls -tr' command...
+thread-self  93  33   195  119	  devices   modules	version  320	 1497  1652  tty		locks	       buddyinfo      1917  2028  2086	9557   9888   10890
+self	     9	 32   194  118	  265	    irq		758	 319	 1498  1654  fs			loadavg        bootconfig     1918  2087  2078	9640   9780   10840
+cmdline      7	 31   19   116	  meminfo   632		797	 318	 1507  1666  driver		kpageflags     sysrq-trigger  1928  2083  2046	9756   9779   10816
+sys	     5	 30   184  114	  313	    636		808	 317	 1506  1667  zoneinfo		kpagecount     partitions     1931  2076  2015	9944   9525   10768
+filesystems  45  3    18   113	  mdstat    641		805	 316	 1505  1685  vmstat		kpagecgroup    mtd	      1936  2085  3469	9946   9520   10764
+1	     44  28   16   112	  mounts    646		803	 315	 1517  1689  vmallocinfo	key-users      diskstats      1940  2167  3508	9947   10348  10763
+uptime	     43  27   15   111	  pressure  649		870	 314	 1528  1708  version_signature	keys	       crypto	      1942  2192  3650	10007  10286  10653
+net	     42  26   141  11	  493	    657		878	 300	 1531  1722  timer_list		kallsyms       1855	      1945  2191  3678	10025  10452
+cgroups      41  25   14   108	  494	    659		886	 1021	 1530  1735  sysvipc		ioports        1863	      1947  2239  3712	10060  10663
+kcore	     40  24   136  107	  608	    kmsg	bus	 1031	 1548  1743  softirqs		iomem	       1880	      1949  2245  4749	10077  10744
+99	     4	 225  135  105	  605	    stat	702	 1069	 1538  1761  slabinfo		fb	       1894	      1948  2047  5398	10098  10791
+98	     39  224  132  104	  acpi	    interrupts	381	 asound  1554  1767  scsi		execdomains    1892	      1909  2021  5607	10143  10839
+97	     38  22   13   101	  615	    663		362	 1197	 1566  1768  schedstat		dynamic_debug  1911	      1985  2080  5667	10144  10920
+96	     37  21   121  100	  613	    667		323	 1303	 1571  1835  pagetypeinfo	dma	       1907	      1979  2282  8657	10192  10942
+95	     36  20   120  10	  612	    688		322	 1443	 1621  1845  mtrr		cpuinfo        1914	      1994  2344  9185	10385  10938
+94	     34  2    12   swaps  618	    716		321	 1489	 1632  1849  misc		consoles       1916	      1982  3126  9556	9960   10891
+[Parent]: Child 10942 finished with status code 0. Onward!
+Selection #5: /usr [SUCESS]
+Current reported directory: /usr
+[Parent]: I am waiting for PID 10943 to finish.
+    [Child, PID: 10943]: Executing 'ls -tr' command...
+libx32	lib32  local  lib64  games  libexec  share  lib  include  bin  src  sbin
+[Parent]: Child 10943 finished with status code 0. Onward!
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ ./slug 3
+[Slug PID: 10944]: Read seed value: 12345
+
+[Slug PID: 10944]: Read seed value (converted to integer): 12345
+[Slug PID: 10944]: Delay time is 7 seconds. Coin flip: 1
+[Slug PID: 10944]: I'll get the job done. Eventually...
+[Slug PID: 10944]: Break time is over! I am running the 'id -group' command.
+1000
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ ./slugrace 
+[Parent]: I forked off a child 10946.
+    [Child, PID, 10946]: Executing './slug 1' command...
+[Parent]: I forked off a child 10947.
+[Parent]: I forked off a child 10948.
+[Parent]: I forked off a child 10949.
+    [Child, PID, 10948]: Executing './slug 3' command...
+[Slug PID: 10946]: Read seed value: 55555
+
+[Slug PID: 10946]: Read seed value (converted to integer): 55555
+[Slug PID: 10946]: Delay time is 6 seconds. Coin flip: 0
+[Slug PID: 10946]: I'll get the job done. Eventually...
+    [Child, PID, 10949]: Executing './slug 4' command...
+[Slug PID: 10948]: Read seed value: 12345
+
+[Slug PID: 10948]: Read seed value (converted to integer): 12345
+[Slug PID: 10948]: Delay time is 7 seconds. Coin flip: 1
+[Slug PID: 10948]: I'll get the job done. Eventually...
+    [Child, PID, 10947]: Executing './slug 2' command...
+[Slug PID: 10949]: Read seed value: 456
+
+[Slug PID: 10949]: Read seed value (converted to integer): 456
+[Slug PID: 10949]: Delay time is 5 seconds. Coin flip: 1
+[Slug PID: 10949]: I'll get the job done. Eventually...
+[Slug PID: 10947]: Read seed value: 56789
+
+[Slug PID: 10947]: Read seed value (converted to integer): 56789
+[Slug PID: 10947]: Delay time is 7 seconds. Coin flip: 1
+[Slug PID: 10947]: I'll get the job done. Eventually...
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+[Slug PID: 10949]: Break time is over! I am running the 'id -group' command.
+1000
+The race is ongoing. The following children are still racing 10946 10947 10948 10949 
+Child 10949 has crossed the finish line! It took 5.070037 seconds
+The race is ongoing. The following children are still racing 10946 10947 10948 
+The race is ongoing. The following children are still racing 10946 10947 10948 
+The race is ongoing. The following children are still racing 10946 10947 10948 
+The race is ongoing. The following children are still racing 10946 10947 10948 
+[Slug PID: 10946]: Break time is over! I am running the 'last -i -x' command.
+zdai     tty2         0.0.0.0          Sat Sep  3 08:58   still logged in
+runlevel (to lvl 5)   0.0.0.0          Sat Sep  3 08:58   still running
+reboot   system boot  0.0.0.0          Sat Sep  3 08:57   still running
+zdai     tty2         0.0.0.0          Fri Sep  2 16:55 - crash  (16:02)
+runlevel (to lvl 5)   0.0.0.0          Fri Sep  2 16:53 - 08:58  (16:04)
+reboot   system boot  0.0.0.0          Fri Sep  2 16:53   still running
+zdai     tty2         0.0.0.0          Fri Sep  2 14:00 - crash  (02:52)
+runlevel (to lvl 5)   0.0.0.0          Fri Sep  2 14:00 - 16:53  (02:53)
+reboot   system boot  0.0.0.0          Fri Sep  2 13:59   still running
+zdai     tty2         0.0.0.0          Fri Sep  2 12:19 - crash  (01:40)
+runlevel (to lvl 5)   0.0.0.0          Fri Sep  2 12:18 - 14:00  (01:41)
+reboot   system boot  0.0.0.0          Fri Sep  2 12:18   still running
+zdai     tty2         0.0.0.0          Fri Sep  2 07:52 - crash  (04:25)
+runlevel (to lvl 5)   0.0.0.0          Fri Sep  2 07:52 - 12:18  (04:26)
+reboot   system boot  0.0.0.0          Fri Sep  2 07:52   still running
+zdai     tty2         0.0.0.0          Thu Sep  1 16:53 - crash  (14:59)
+runlevel (to lvl 5)   0.0.0.0          Thu Sep  1 16:52 - 07:52  (14:59)
+reboot   system boot  0.0.0.0          Thu Sep  1 16:52   still running
+zdai     tty2         0.0.0.0          Thu Sep  1 16:36 - crash  (00:15)
+runlevel (to lvl 5)   0.0.0.0          Thu Sep  1 16:14 - 16:52  (00:38)
+reboot   system boot  0.0.0.0          Thu Sep  1 16:13   still running
+zdai     tty2         0.0.0.0          Thu Sep  1 11:38 - crash  (04:35)
+runlevel (to lvl 5)   0.0.0.0          Thu Sep  1 11:38 - 16:14  (04:35)
+reboot   system boot  0.0.0.0          Thu Sep  1 11:38   still running
+zdai     tty2         0.0.0.0          Thu Sep  1 07:44 - crash  (03:53)
+runlevel (to lvl 5)   0.0.0.0          Thu Sep  1 07:44 - 11:38  (03:54)
+reboot   system boot  0.0.0.0          Thu Sep  1 07:43   still running
+zdai     tty2         0.0.0.0          Wed Aug 31 13:51 - crash  (17:52)
+runlevel (to lvl 5)   0.0.0.0          Wed Aug 31 13:51 - 07:44  (17:52)
+reboot   system boot  0.0.0.0          Wed Aug 31 13:51   still running
+zdai     tty2         0.0.0.0          Wed Aug 31 10:27 - crash  (03:23)
+runlevel (to lvl 5)   0.0.0.0          Wed Aug 31 10:27 - 13:51  (03:24)
+reboot   system boot  0.0.0.0          Wed Aug 31 10:27   still running
+zdai     tty2         0.0.0.0          Wed Aug 31 08:20 - crash  (02:06)
+runlevel (to lvl 5)   0.0.0.0          Wed Aug 31 08:20 - 10:27  (02:07)
+reboot   system boot  0.0.0.0          Wed Aug 31 08:20   still running
+zdai     tty2         0.0.0.0          Tue Aug 30 13:54 - crash  (18:26)
+runlevel (to lvl 5)   0.0.0.0          Tue Aug 30 13:54 - 08:20  (18:26)
+reboot   system boot  0.0.0.0          Tue Aug 30 13:53   still running
+zdai     tty2         0.0.0.0          Tue Aug 30 12:30 - crash  (01:22)
+runlevel (to lvl 5)   0.0.0.0          Tue Aug 30 12:30 - 13:54  (01:23)
+reboot   system boot  0.0.0.0          Tue Aug 30 12:30   still running
+zdai     tty2         0.0.0.0          Tue Aug 30 08:58 - crash  (03:31)
+runlevel (to lvl 5)   0.0.0.0          Tue Aug 30 08:58 - 12:30  (03:31)
+reboot   system boot  0.0.0.0          Tue Aug 30 08:58   still running
+zdai     tty2         0.0.0.0          Mon Aug 29 15:52 - crash  (17:06)
+runlevel (to lvl 5)   0.0.0.0          Mon Aug 29 15:51 - 08:58  (17:07)
+reboot   system boot  0.0.0.0          Mon Aug 29 15:50   still running
+zdai     tty2         0.0.0.0          Mon Aug 29 09:34 - crash  (06:15)
+runlevel (to lvl 5)   0.0.0.0          Mon Aug 29 09:33 - 15:51  (06:18)
+reboot   system boot  0.0.0.0          Mon Aug 29 09:32   still running
+zdai     tty2         0.0.0.0          Mon Aug 29 09:03 - crash  (00:29)
+runlevel (to lvl 5)   0.0.0.0          Mon Aug 29 09:03 - 09:33  (00:29)
+reboot   system boot  0.0.0.0          Mon Aug 29 09:02   still running
+zdai     tty2         0.0.0.0          Sun Aug 28 15:26 - crash  (17:36)
+runlevel (to lvl 5)   0.0.0.0          Sun Aug 28 15:26 - 09:03  (17:37)
+reboot   system boot  0.0.0.0          Sun Aug 28 15:25   still running
+zdai     tty2         0.0.0.0          Sun Aug 28 09:47 - crash  (05:37)
+runlevel (to lvl 5)   0.0.0.0          Sun Aug 28 09:47 - 15:26  (05:38)
+reboot   system boot  0.0.0.0          Sun Aug 28 09:04   still running
+zdai     tty2         0.0.0.0          Sat Aug 27 11:14 - crash  (21:50)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 11:13 - 09:47  (22:33)
+reboot   system boot  0.0.0.0          Sat Aug 27 11:13   still running
+shutdown system down  0.0.0.0          Sat Aug 27 11:08 - 11:13  (00:05)
+zdai     tty2         0.0.0.0          Sat Aug 27 11:05 - down   (00:03)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 11:04 - 11:08  (00:03)
+reboot   system boot  0.0.0.0          Sat Aug 27 11:04 - 11:08  (00:03)
+shutdown system down  0.0.0.0          Sat Aug 27 11:04 - 11:04  (00:00)
+zdai     tty2         0.0.0.0          Sat Aug 27 11:03 - down   (00:00)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 11:03 - 11:04  (00:00)
+reboot   system boot  0.0.0.0          Sat Aug 27 11:03 - 11:04  (00:01)
+zdai     tty2         0.0.0.0          Sat Aug 27 11:00 - crash  (00:03)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 11:00 - 11:03  (00:03)
+reboot   system boot  0.0.0.0          Sat Aug 27 11:00 - 11:04  (00:04)
+zdai     tty2         0.0.0.0          Sat Aug 27 10:39 - crash  (00:20)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 10:39 - 11:00  (00:21)
+reboot   system boot  0.0.0.0          Sat Aug 27 10:38 - 11:04  (00:25)
+zdai     tty2         0.0.0.0          Sat Aug 27 10:34 - crash  (00:04)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 10:33 - 10:39  (00:05)
+reboot   system boot  0.0.0.0          Sat Aug 27 10:33 - 11:04  (00:30)
+zdai     tty2         0.0.0.0          Sat Aug 27 10:30 - crash  (00:03)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 10:30 - 10:33  (00:03)
+reboot   system boot  0.0.0.0          Sat Aug 27 10:30 - 11:04  (00:34)
+zdai     tty2         0.0.0.0          Sat Aug 27 10:20 - crash  (00:09)
+runlevel (to lvl 5)   0.0.0.0          Sat Aug 27 10:20 - 10:30  (00:10)
+reboot   system boot  0.0.0.0          Sat Aug 27 10:19 - 11:04  (00:44)
+
+wtmp begins Sat Aug 27 10:19:42 2022
+The race is ongoing. The following children are still racing 10946 10947 10948 
+Child 10946 has crossed the finish line! It took 6.078973 seconds
+The race is ongoing. The following children are still racing 10947 10948 
+The race is ongoing. The following children are still racing 10947 10948 
+The race is ongoing. The following children are still racing 10947 10948 
+The race is ongoing. The following children are still racing 10947 10948 
+[Slug PID: 10948]: Break time is over! I am running the 'id -group' command.
+[Slug PID: 10947]: Break time is over! I am running the 'id -group' command.
+1000
+1000
+The race is ongoing. The following children are still racing 10947 10948 
+Child 10947 has crossed the finish line! It took 7.099343 seconds
+Child 10948 has crossed the finish line! It took 7.099376 seconds
+The race is over! It took 7.099376 seconds
+zdai@zdai-VirtualBox:~/CS3013_projects/Project_1/project_1_final$ exit
+exit
+Script done.
+

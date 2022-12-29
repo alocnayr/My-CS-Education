@@ -1,0 +1,28 @@
+Instruction?: 0,map,0,1
+Put page table for PID 0 into physical frame 0
+Mapped virtual address 0 (page 0) into physical frame 1
+Instruction?: 1,map,3,0
+Put page table for PID 1 into physical frame 2
+Mapped virtual address 3 (page 0) into physical frame 3
+Instruction?: 2,map,5,1
+Swapped frame 3 to disk at swap slot 1
+Swapped frame 0 to disk at swap slot 2
+Put page table for PID 2 into physical frame 0
+Mapped virtual address 5 (page 0) into physical frame 3
+Instruction?: 0,store,5,244
+Stored value 244 at virtual address 5 (physical address 53)
+Instruction?: 1,store,3,0
+Error: writes are not allowed to this page
+Instruction?: 1,map,3,1
+Mapped virtual address 3 (page 0) into physical frame 0
+Instruction?: 1,store,3,4
+Stored value 4 at virtual address 3 (physical address 258)
+Instruction?: 1,load,3,0
+The value 4 is virtual address 3 (physical address 258)
+Instruction?: 0,load,5,0
+The value 244 is virtual address 5 (physical address 53)
+Instruction?: 3,map,0,0
+Swapped frame 3 to disk at swap slot 3
+Swapped frame 0 to disk at swap slot 4
+Put page table for PID 3 into physical frame 0
+Mapped virtual address 0 (page 0) into physical frame 3

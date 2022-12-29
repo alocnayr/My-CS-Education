@@ -1,0 +1,2 @@
+I have a video demoing this project that you can watch on Youtube (https://www.youtube.com/watch?v=25UrVAkofu4&ab_channel=Ryan_Cola).
+This is the individual project that we had to develop for my software engineering course. See "Individual Project Part 1.pdf" and "Individual Project Part 2.pdf" for more information regarding the project.
