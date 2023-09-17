@@ -1,0 +1,17 @@
+Coordinate type : SQUARE
+xMax : 0
+yMax : 0
+Players : Chris Pat
+
+Locations :
+    (1, 2) Chris snail
+    (15, 15) Pat frog
+Piece descriptors :
+    SNAIL orthogonal [distance 30, jump, unblock]
+    DOG omni [distance 50, unblock]
+    HORSE diagonal [distance 7, jump]
+    bird omni [distance 30, jump, fly]
+    frog orthogonal [distance 17]
+
+Rules :
+    SCORE 10

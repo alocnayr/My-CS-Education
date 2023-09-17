@@ -1,0 +1,28 @@
+Coordinate type : HEX
+xMax : 0
+yMax : 0
+Players : Chris Pat
+
+Locations :
+    (-3, 0) clear Pat dog
+    (0, 0) clear Chris frog
+    (1, -1) clear Chris frog
+    (1, 0) clear Chris horse
+    (1, -2) Chris horse
+    (0, -3) Chris bird
+    (0, -1) exit
+    (-1, 0) block
+    (2, -2) block
+    (3, 5) block
+    (5, 12) exit
+
+Piece descriptors :
+    SNAIL omni [distance 1]
+    DOG linear [distance 50, fly]
+    HORSE omni [distance 7, jump, unblock]
+    bird omni [fly, jump, unblock, distance 5]
+    frog omni [distance 30, jump]
+
+Rules :
+    SCORE 10
+    TURN_LIMIT 20

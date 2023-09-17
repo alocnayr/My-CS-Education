@@ -1,0 +1,19 @@
+Coordinate type : SQUARE
+xMax : 40
+yMax : 40
+Players : Chris Pat
+
+Locations :
+     (2, 2) Chris horse
+     (2, 1) exit
+     (3, 3) Pat snail
+
+Piece descriptors :
+    SNAIL omni [distance 30, unblock, value 5]
+    DOG linear [distance 50, jump]
+    HORSE linear [distance 7, jump]
+    bird linear [distance 30, fly]
+    frog omni [distance 17, jump]
+
+Rules :
+    TURN_LIMIT 2

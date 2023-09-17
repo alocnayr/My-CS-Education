@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escapeGameInitializer>
+
+    <!-- Board attributes -->
+    <coordinateType>SQUARE</coordinateType>
+    <xMax>25</xMax>
+    <yMax>20</yMax>
+
+    <!-- Players -->
+    <players>Christ</players>
+    <players>Pat</players>
+
+    <!-- Locations -->
+    <locationInitializers>
+        <x>1</x><y>1</y>
+        <locationType>CLEAR</locationType>
+    </locationInitializers>
+</escapeGameInitializer>
